@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "graveyard instance configuration",
+  "description": "Everything specific to one village. The engine ships with neutral defaults; only owner is required.",
+  "type": "object",
+  "anyOf": [{ "required": ["owner"] }, { "required": ["org"] }],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "owner": { "type": "string", "minLength": 1, "description": "Login of the GitHub organisation or user whose repos make up the village. The type is detected via the API unless ownerType is set." },
+    "ownerType": { "enum": ["org", "user"], "description": "Forces the owner type instead of detecting it (one request less per run)." },
+    "includeForks": { "type": "boolean", "description": "Include forked repos. Default: true for organisations, false for users." },
+    "org": { "type": "string", "minLength": 1, "deprecated": true, "description": "Deprecated name of owner; implies ownerType \"org\". Still accepted. If both are set they must be equal." },
+    "language": { "enum": ["en", "de"], "description": "Language of the interface (engine/locales/<language>.json) and default for epitaphs.language. Default: en." },
+    "branding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mark": { "type": "string", "description": "Small word mark above the title (header, loading screen, login, brass sign). Default: owner." },
+        "title": { "type": "string", "description": "Title of the village. Default: the title of the locale (\"Graveyard of Repos\" in English)." }
+      }
+    },
+    "team": {
+      "type": "object",
+      "description": "Playable characters by id. Without a team there is one neutral guest figure.",
+      "additionalProperties": { "$ref": "#/$defs/teamMember" }
+    },
+    "mourners": {
+      "type": "object",
+      "description": "Non-player characters who comment on repos. Without members the inscriptions have no mourner field.",
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string", "description": "Group name shown before \"Trauergast\" in the UI." },
+        "promptGroup": { "type": "string", "description": "Phrase naming the group in the inscription prompt." },
+        "members": { "type": "object", "additionalProperties": { "$ref": "#/$defs/mourner" } }
+      }
+    },
+    "epitaphs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "language": { "enum": ["en", "de"], "description": "Language of the prompt template (server/pipeline/prompts/<language>.js). Default: language." },
+        "project": { "type": "string", "description": "The whole phrase the prompt uses for project and organisation, e.g. \"\\\"graveyard\\\", the night-time village where the repositories of Example Org live and rest\". Default: built from context." },
+        "context": { "type": "string", "description": "Who the village belongs to, as one phrase; only used when project is not set. Default: owner." },
+        "tone": { "type": "string", "description": "Tone of the inscriptions." },
+        "model": { "type": "string", "description": "Anthropic model id. Default: a small Haiku model." }
+      }
+    },
+    "exclude": { "type": "array", "items": { "type": "string" }, "description": "Repos that never appear anywhere (collecting, inscriptions, world)." },
+    "clients": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Client display names by slug (topic graveyard-client-<slug>). Otherwise derived from the slug." },
+    "familyColors": { "type": "object", "additionalProperties": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" }, "description": "Window light tint by repo name prefix." },
+    "authors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "aliases": { "type": "object", "additionalProperties": { "type": "string" }, "description": "Commit author name (lower case) -> display name." },
+        "bots": { "type": "array", "items": { "type": "string" }, "description": "Extra regular expressions for bot accounts to leave out." }
+      }
+    },
+    "auth": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Sign-in. Without a provider the village is public.",
+      "properties": {
+        "provider": { "enum": ["none", "microsoft-entra-id", "github", "google", "gitlab"] },
+        "label": { "type": "string", "description": "Provider name on the login button." },
+        "allowedDomains": { "type": "array", "items": { "type": "string" }, "description": "E-mail domains that may enter." }
+      }
+    },
+    "storage": { "enum": ["none", "upstash"], "description": "upstash: multiplayer, shared counters and refresh on open (in-memory during local development). none: static world from data/." },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "deadDays": { "type": "number", "description": "Days without a push until a repo is dead. Default 90." },
+        "aliveDays": { "type": "number", "description": "Days without a push while a repo still counts as alive. Default 30." },
+        "zombiePauseDays": { "type": "number", "description": "Pause after which new commits count as a resurrection. Default 90." },
+        "graveTiers": {
+          "type": "array",
+          "description": "[commits below, tier] in ascending order; above the last: mausoleum.",
+          "items": { "type": "array", "prefixItems": [{ "type": "number" }, { "enum": ["cross", "stone", "marble"] }], "minItems": 2, "maxItems": 2 }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "look": {
+      "type": "object",
+      "description": "Appearance of the model figure (colours as #rrggbb).",
+      "properties": {
+        "skin": { "type": "string" }, "hair": { "type": "string" },
+        "hairstyle": { "enum": ["short", "side", "curls", "curlytop", "slicked", "bun", "long", "braid", "longbob", "shaggy"] },
+        "beard": { "enum": ["stubble", "full"] }, "glasses": { "type": "boolean" },
+        "top": { "enum": ["hoodie", "blazer", "jacket", "sweater", "vest", "coat"] },
+        "color": { "type": "string" }, "shirt": { "type": "string" }, "scarf": { "type": "string" }, "tie": { "type": "string" },
+        "trousers": { "type": "string" }, "shoes": { "type": "string" },
+        "extra": { "enum": ["laptop", "phone", "headset", "tablet", "letter", "calculator", "folder", "umbrella"] }
+      }
+    },
+    "teamMember": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "photo": { "type": "string", "description": "Path relative to the config file." },
+        "logins": { "type": "array", "items": { "type": "string" }, "description": "Local parts of sign-in e-mails that play this character. Default: [id]." },
+        "look": { "$ref": "#/$defs/look" }
+      }
+    },
+    "mourner": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string", "description": "Shown in the UI." },
+        "prompt": { "type": "string", "description": "Role description for the inscription prompt. Default: role." },
+        "accent": { "type": "string", "description": "Light colour of the figure." },
+        "look": { "$ref": "#/$defs/look" }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "meta": { "htmlLang": "de", "numberLocale": "de-DE" },
+  "defaultTitle": "Friedhof der Repos",
+  "months": ["Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."],
+  "date": { "unknown": "unbekannt", "short": "{d}.{m}.{y}", "long": "{d}. {month} {y}" },
+  "ago": { "today": "heute", "yesterday": "gestern", "days": "vor {n} Tagen", "months": "vor {n} Monaten", "oneYear": "vor einem Jahr", "years": "vor {n} Jahren" },
+  "places": { "village": "Dorf", "clients": "Kundenviertel", "hospice": "Hospiz", "graveyard": "Friedhof", "chapel": "Kapelle", "pond": "Teich", "square": "Dorfplatz" },
+  "states": {
+    "alive": { "title": "Lebt", "sentence": "Letzter Push {ago}." },
+    "sleeping": { "title": "Schläft", "sentence": "Ist live, aber seit {days} Tagen ruhig." },
+    "client_active": { "title": "In Arbeit beim Kunden", "sentence": "Letzter Push {ago}." },
+    "delivered": { "title": "Ausgeliefert", "sentence": "Seit {days} Tagen fertig und in Ruhe." },
+    "hospice": { "title": "Im Hospiz", "sentence": { "one": "Noch {n} Tag, dann gilt es als tot.", "other": "Noch {n} Tage, dann gilt es als tot." } },
+    "dead": { "title": "Verstorben", "sentence": "Seit {days} Tagen kein Lebenszeichen." },
+    "buried": { "title": "Beerdigt", "sentence": "Archiviert und ordentlich beigesetzt." },
+    "ancestor": { "title": "Ahne", "sentence": "Lebt weiter in {successor}." }
+  },
+  "legend": {
+    "alive": "Lebt", "sleeping": "Schläft", "client_active": "Beim Kunden", "delivered": "Ausgeliefert",
+    "hospice": "Hospiz", "dead": "Verstorben", "ancestor": "Ahnen", "zombie": "Zombies",
+    "title": "Antippen filtert die Punkte auf der Karte", "back": "Zurück ins Dorf"
+  },
+  "zones": {
+    "graveyard": { "standing": "Du stehst auf dem", "entering": "Du betrittst den", "sentence": "Ab {dead} Tagen ohne Push. Ruhet in Frieden." },
+    "hospice": { "standing": "Du stehst im", "entering": "Du betrittst das", "sentence": "Zwischen {alive} und {dead} Tagen ohne Push." },
+    "clients": { "standing": "Du stehst im", "entering": "Du betrittst das", "sentence": "Gebaut für andere." },
+    "village": { "standing": "Du stehst im", "entering": "Zurück im", "sentence": "Hier wohnt, was lebt." }
+  },
+  "header": { "asOf": "{n} Repos · Stand {date}" },
+  "nav": { "map": "Karte", "mapTitle": "Karte (M)", "sound": "Ton an oder aus", "help": "Steuerung" },
+  "help": {
+    "kicker": "Steuerung",
+    "title": "So läuft man hier herum",
+    "touch": [
+      ["Tippen", "Hinlaufen. Auf Häuser, Gräber und Figuren: ansehen"],
+      ["Ziehen", "Kamera drehen"],
+      ["Zwei Finger", "Näher heran oder weiter weg"],
+      ["Unten", "Lesen, was vor dir steht, und Respekt zollen"],
+      ["Oben", "Karte vom ganzen Dorf und Ton"]
+    ],
+    "desktop": [
+      ["<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>", "Laufen, mit <kbd>Umschalt</kbd> schneller"],
+      ["Klick", "Hinlaufen, auf Häuser und Gräber: ansehen"],
+      ["Ziehen", "Kamera drehen, <kbd>Q</kbd> <kbd>E</kbd> geht auch"],
+      ["Mausrad", "Näher heran oder weiter weg"],
+      ["<kbd>Leertaste</kbd>", "Lesen, was vor dir steht"],
+      ["<kbd>F</kbd>", "Respekt zollen"],
+      ["<kbd>M</kbd>", "Karte vom ganzen Dorf"]
+    ],
+    "signOut": "Abmelden",
+    "switchFigure": "Figur wechseln",
+    "ok": "Verstanden"
+  },
+  "choice": { "kicker": "Willkommen im Dorf", "title": "Wer bist du?", "note": "Die Figur lässt sich später in der Hilfe wechseln." },
+  "hint": {
+    "zombie": "Zombie {name} ansehen", "talk": "Mit {name} sprechen",
+    "grave": "Grab von {name} lesen", "mausoleum": "Mausoleum von {name} ansehen", "house": "{name} ansehen",
+    "bed": "Krankenblatt von {name} lesen", "vault": "Ahnen von {name} ansehen", "monument": "Denkmal für {name} lesen",
+    "clientSign": "Projekte für {name}", "chapel": "Kapelle betreten", "hospice": "Hospiz",
+    "space": "Leertaste", "respect": "Respekt zollen"
+  },
+  "mourner": "Trauergast",
+  "online": "online",
+  "guest": "Gast",
+  "visiting": "Zu Besuch",
+  "ancestorsOf": "Ahnen von {name}",
+  "commitsN": "{n} Commits",
+  "tip": {
+    "zombie": "Zombie",
+    "zombieSentence": "War schon einmal {days} Tage tot und ist am {date} wieder aufgestanden.",
+    "you": "Das bist du", "online": "Gerade online", "with": "Mit {name}.",
+    "vaultKicker": "Dorf · Ahnengruft",
+    "vaultSentence": { "one": "{n} Vorgänger lebt hier weiter.", "other": "{n} Vorgänger leben hier weiter." },
+    "projects": { "one": "{n} Projekt", "other": "{n} Projekte" },
+    "hospiceSentence": "Repos zwischen {alive} und {dead} Tagen ohne Push.",
+    "chapelSentence": "Hier wird aller Toten gedacht."
+  },
+  "detail": {
+    "close": "Schließen",
+    "about": "{name} über {repo}",
+    "mournerSentence": "Läuft nachts durchs Dorf und hat zu {n} Repos etwas zu sagen.",
+    "player": "Mit Laterne unterwegs.",
+    "online": "Ist gerade auch im Dorf unterwegs. Im Mockup simuliert, echt erst mit dem Login.",
+    "clientText": "Was wir für diesen Kunden gebaut haben.",
+    "hospiceText": "Hier liegen Repos, die seit mehr als {alive} Tagen keinen Push bekommen haben. Nach {dead} Tagen gelten sie als tot. Besuch ist erwünscht.",
+    "zombieKicker": "Zombie · auferstanden am {date}",
+    "hereLies": "Hier ruht",
+    "open": "{url} öffnen",
+    "lastWords": "Letzte Worte",
+    "sameGrave": "Im selben Grab",
+    "belongs": "Gehört dazu",
+    "backToList": "Zurück zur Übersicht",
+    "vaultText": "Was hier liegt, ist nicht tot. Es lebt in {name} weiter."
+  },
+  "facts": {
+    "commits": "Commits", "files": "Dateien", "language": "Sprache", "lastPush": "Letzter Push", "client": "Kunde",
+    "livesOnIn": "Lebt weiter in", "diagnosis": "Diagnose", "causeOfDeath": "Todesursache",
+    "authors": { "one": "Autor", "other": "Autoren" }
+  },
+  "lifeDates": { "span": "{from} bis {to}", "since": "Seit {from}" },
+  "history": { "title": "Commits je Monat", "bar": "{month}: {n} Commits" },
+  "tribute": {
+    "respect": "Respekt", "flower": "Blume", "candle": "Kerze",
+    "flowerLaid": "Blume abgelegt.", "candleLit": "Kerze angezündet.",
+    "respectPaid": { "one": "Respekt gezollt.", "other": "Respekt gezollt. {n} Mal von dir." }
+  },
+  "chapel": {
+    "kicker": "Friedhof · Kapelle",
+    "text": "{n} Repos liegen hier. Zusammen {commits} Commits, die niemand mehr liest.",
+    "longestDead": "Am längsten tot", "since": "{name}, seit {date}",
+    "lastDied": "Zuletzt verstorben",
+    "respect": "Respekt gezollt", "respectCount": "{n} Mal, von allen zusammen"
+  },
+  "signs": {
+    "rip": "RUHET IN FRIEDEN", "delivered": "ausgeliefert {year}", "chart": "Krankenblatt", "left": "noch",
+    "days": { "one": "Tag", "other": "Tage" }, "asOf": "Stand {date}  ·  Maßstab 1:87"
+  },
+  "loading": {
+    "surveying": "Das Dorf wird neu vermessen", "count": "{i} von {n}",
+    "epitaphs": "Neue Grabschriften werden gemeißelt", "live": "Die Fenster werden auf Licht geprüft",
+    "world": "Das Dorf wird neu aufgestellt", "building": "Das Dorf wird aufgebaut",
+    "offline": "Keine Verbindung. Du siehst den letzten Stand.",
+    "refreshFailed": "Die Aktualisierung hat nicht geklappt. Du siehst den letzten Stand.",
+    "failed": "Die Welt konnte nicht geladen werden: {message}"
+  },
+  "login": {
+    "access": "Zutritt nur für Angehörige.",
+    "button": "Mit {provider} anmelden",
+    "domains": "Angehörig ist, wer eine Adresse {domains} hat.",
+    "or": " oder ",
+    "denied": "Mit dieser Adresse kommst du nicht hinein.",
+    "failed": "Die Anmeldung hat nicht geklappt. Versuch es bitte noch einmal.",
+    "signedOut": "Du bist abgemeldet. Die Toten laufen dir nicht weg.",
+    "wait": "Einen Moment"
+  }
+}

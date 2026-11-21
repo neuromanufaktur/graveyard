@@ -1,0 +1,2600 @@
+{
+ "schema_version": 1,
+ "as_of": "2026-10-31T22:00:00+00:00",
+ "repos": [
+  {
+   "name": "bellrope",
+   "description": "Rings a bell on new mail",
+   "language": "Lua",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-03-28T19:35:36Z",
+   "first_commit": "2025-03-30T18:32:05Z",
+   "last_commit": "2025-05-09T18:32:05Z",
+   "last_push": "2025-05-09T18:32:05Z",
+   "days_since_push": 540,
+   "commits": 13,
+   "files": 15,
+   "authors": [
+    "Otis"
+   ],
+   "last_words": "Ring the bell on new mail",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-03": 1,
+    "2025-04": 10,
+    "2025-05": 2
+   },
+   "inscription": "Rang a bell on new mail for thirteen commits in spring 2025, then went quiet. Fixed its memory leak, which is more than most of us manage.",
+   "cause_of_death": "Memory leak in the worker, then no commits after May 2025",
+   "npc": {
+    "who": "Hollis",
+    "text": "Properly buried, which I rarely get to say. Shortcuts and pagination were each committed twice."
+   }
+  },
+  {
+   "name": "brambleboard",
+   "description": "Kanban board that grows like a hedge",
+   "language": "TypeScript",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-11-23T02:25:46Z",
+   "first_commit": "2025-11-24T18:56:45Z",
+   "last_commit": "2026-09-20T18:56:45Z",
+   "last_push": "2026-09-20T19:06:14Z",
+   "days_since_push": 41,
+   "commits": 48,
+   "files": 42,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Drag cards between lanes again",
+   "archived": false,
+   "live": null,
+   "state": "hospice",
+   "hospice_days_left": 49,
+   "grave_tier": "marble",
+   "resurrected_at": "2026-09-02",
+   "commits_per_month": {
+    "2025-11": 2,
+    "2025-12": 10,
+    "2026-01": 9,
+    "2026-02": 7,
+    "2026-03": 9,
+    "2026-04": 4,
+    "2026-05": 1,
+    "2026-09": 6
+   },
+   "inscription": "The board grew like a hedge until nobody trimmed it. 41 days without a push; at 49 it joins the graveyard.",
+   "cause_of_death": "Commits thinned to one a month, then a 120 day pause and a late flurry",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Six commits in September, then the window went dark. Otis and Juno kept it lit most of a year."
+   }
+  },
+  {
+   "name": "candle-timer",
+   "description": "Pomodoro timer that burns down",
+   "language": "JavaScript",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2024-08-20T14:49:52Z",
+   "first_commit": "2024-08-21T21:49:36Z",
+   "last_commit": "2024-08-22T21:49:36Z",
+   "last_push": "2024-08-22T21:49:36Z",
+   "days_since_push": 800,
+   "commits": 2,
+   "files": 5,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Initial commit",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "cross",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2024-08": 2
+   },
+   "inscription": "Here rests candle-timer, a Pomodoro timer begun in August 2024. It received two commits in one active week and was then left alone.",
+   "cause_of_death": "Work stopped after two commits in a single week; no later activity recorded",
+   "npc": {
+    "who": "Hollis",
+    "text": "Two commits, both named Initial commit. Little work, but it was dug properly and has stayed dug."
+   }
+  },
+  {
+   "name": "crow-cache",
+   "description": "In-memory cache with a sense of humour",
+   "language": "Go",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-08-30T16:40:59Z",
+   "first_commit": "2025-08-30T19:11:47Z",
+   "last_commit": "2026-10-24T19:11:47Z",
+   "last_push": "2026-10-24T19:15:05Z",
+   "days_since_push": 7,
+   "commits": 64,
+   "files": 56,
+   "authors": [
+    "Wren",
+    "Bex Morrow"
+   ],
+   "last_words": "LRU eviction finally works",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": "2026-09-21",
+   "commits_per_month": {
+    "2025-08": 1,
+    "2025-09": 5,
+    "2025-10": 9,
+    "2025-11": 9,
+    "2025-12": 4,
+    "2026-01": 9,
+    "2026-02": 4,
+    "2026-03": 8,
+    "2026-04": 4,
+    "2026-09": 3,
+    "2026-10": 8
+   },
+   "inscription": "64 commits and counting. The chimney is smoking, so someone is home.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Went quiet for 160 days, then came back with 8 commits in October. Stubborn little house."
+   }
+  },
+  {
+   "name": "design-tokens",
+   "description": "Colours, spacing and type scale for every app",
+   "language": "TypeScript",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-02-27T14:48:02Z",
+   "first_commit": "2026-02-27T19:02:26Z",
+   "last_commit": "2026-08-26T19:02:26Z",
+   "last_push": "2026-08-26T19:07:36Z",
+   "days_since_push": 66,
+   "commits": 37,
+   "files": 25,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Export tokens as CSS variables",
+   "archived": false,
+   "live": {
+    "url": "https://tokens.tallowmoor.example",
+    "ok": false
+   },
+   "state": "hospice",
+   "hospice_days_left": 24,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-02": 1,
+    "2026-03": 8,
+    "2026-04": 9,
+    "2026-05": 5,
+    "2026-06": 5,
+    "2026-07": 3,
+    "2026-08": 6
+   },
+   "inscription": "66 days without a push. 37 commits from one author, and a README still promising colour for every app. Still breathing.",
+   "cause_of_death": "Single maintainer; last commits were small fixes and a retry, then silence",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Last light out was 26 August. Longest dark before this was 18 days. I have been counting."
+   }
+  },
+  {
+   "name": "dotfiles",
+   "description": "Shared editor and shell settings",
+   "language": "Shell",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-08-03T20:45:27Z",
+   "first_commit": "2025-08-05T18:33:28Z",
+   "last_commit": "2026-09-09T18:33:28Z",
+   "last_push": "2026-09-09T18:38:46Z",
+   "days_since_push": 52,
+   "commits": 43,
+   "files": 28,
+   "authors": [
+    "Otis",
+    "Wren"
+   ],
+   "last_words": "Switch prompt theme",
+   "archived": false,
+   "live": null,
+   "state": "hospice",
+   "hospice_days_left": 38,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-08": 3,
+    "2025-09": 2,
+    "2025-10": 4,
+    "2025-12": 1,
+    "2026-01": 2,
+    "2026-02": 4,
+    "2026-03": 3,
+    "2026-04": 3,
+    "2026-05": 4,
+    "2026-06": 6,
+    "2026-07": 3,
+    "2026-08": 6,
+    "2026-09": 2
+   },
+   "inscription": "Two hands kept these shell settings going through 43 commits. The silence has now matched its longest pause on record.",
+   "cause_of_death": "Two hands tinkering in turn, and nobody left to decide when it counts as done",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its last light went out on 9 September, and it has been the longest dark I have walked past."
+   }
+  },
+  {
+   "name": "fernhollow-orders",
+   "description": "Pre-orders for the morning bake",
+   "language": "Python",
+   "category": "client",
+   "client": "Fernhollow Bakery",
+   "successor": null,
+   "created_at": "2026-05-12T13:08:06Z",
+   "first_commit": "2026-05-12T21:49:45Z",
+   "last_commit": "2026-10-19T21:49:45Z",
+   "last_push": "2026-10-19T21:59:40Z",
+   "days_since_push": 12,
+   "commits": 76,
+   "files": 49,
+   "authors": [
+    "Wren",
+    "Pim Larkspur"
+   ],
+   "last_words": "Print pre-orders at 4 am",
+   "archived": false,
+   "live": null,
+   "state": "client_active",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-05": 9,
+    "2026-06": 12,
+    "2026-07": 11,
+    "2026-08": 17,
+    "2026-09": 18,
+    "2026-10": 9
+   },
+   "inscription": "Morning bake pre-orders, kept by Wren and Pim over 76 commits and 23 active weeks. The 4 am print still runs.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Twelve days since the last push, and its longest pause was nine. Still a healthy house, I'd say."
+   }
+  },
+  {
+   "name": "fernhollow-shop",
+   "description": "Online shop for bread and pastries",
+   "language": "TypeScript",
+   "category": "client",
+   "client": "Fernhollow Bakery",
+   "successor": null,
+   "created_at": "2026-03-31T19:16:08Z",
+   "first_commit": "2026-04-01T19:37:25Z",
+   "last_commit": "2026-10-28T19:37:25Z",
+   "last_push": "2026-10-28T19:46:18Z",
+   "days_since_push": 3,
+   "commits": 142,
+   "files": 77,
+   "authors": [
+    "Otis",
+    "Pim Larkspur",
+    "Juno"
+   ],
+   "last_words": "Hide sold-out loaves after 2 pm",
+   "archived": false,
+   "live": {
+    "url": "https://shop.fernhollow.example",
+    "ok": true
+   },
+   "state": "client_active",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-04": 14,
+    "2026-05": 10,
+    "2026-06": 33,
+    "2026-07": 14,
+    "2026-08": 28,
+    "2026-09": 21,
+    "2026-10": 22
+   },
+   "inscription": "Bread, pastries and 142 commits. Three hands built this shop for Fernhollow, and it still keeps its doors open.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Otis, Pim and Juno watered this house through 31 active weeks. Nine quiet days at most."
+   }
+  },
+  {
+   "name": "fernhollow-website",
+   "description": "Website of the bakery",
+   "language": "HTML",
+   "category": "client",
+   "client": "Fernhollow Bakery",
+   "successor": null,
+   "created_at": "2025-10-16T13:17:27Z",
+   "first_commit": "2025-10-16T18:48:33Z",
+   "last_commit": "2025-12-15T18:48:33Z",
+   "last_push": "2025-12-15T18:54:56Z",
+   "days_since_push": 320,
+   "commits": 39,
+   "files": 21,
+   "authors": [
+    "Juno",
+    "Pim Larkspur"
+   ],
+   "last_words": "Handover: add the editing guide",
+   "archived": false,
+   "live": {
+    "url": "https://www.fernhollow.example",
+    "ok": true
+   },
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-10": 13,
+    "2025-11": 18,
+    "2025-12": 8
+   },
+   "inscription": "Built for Fernhollow Bakery over 39 commits and 10 active weeks. It ended with a handover guide and stands as delivered.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Last light out on 15 December. Quiet since, though it burned steadily for ten weeks."
+   }
+  },
+  {
+   "name": "ferrywell",
+   "description": "Resumable file transfer for flaky hotel wifi",
+   "language": "Rust",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-09-03T00:55:19Z",
+   "first_commit": "2025-09-04T20:12:56Z",
+   "last_commit": "2026-10-29T20:12:56Z",
+   "last_push": "2026-10-29T20:22:54Z",
+   "days_since_push": 2,
+   "commits": 241,
+   "files": 174,
+   "authors": [
+    "Wren",
+    "Otis"
+   ],
+   "last_words": "Resume uploads from the last confirmed chunk",
+   "archived": false,
+   "live": {
+    "url": "https://ferrywell.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-09": 12,
+    "2025-10": 21,
+    "2025-11": 12,
+    "2025-12": 24,
+    "2026-01": 25,
+    "2026-02": 19,
+    "2026-03": 18,
+    "2026-04": 14,
+    "2026-05": 15,
+    "2026-06": 13,
+    "2026-07": 19,
+    "2026-08": 15,
+    "2026-09": 16,
+    "2026-10": 18
+   },
+   "inscription": "Still sending, one chunk at a time, over the hotel wifi. Wren and Otis keep the chimney smoking.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Wren and Otis tend it well. The resume fix has taken root, and I've not seen a wilt since."
+   }
+  },
+  {
+   "name": "ferrywell-gui",
+   "description": "Desktop app for ferrywell",
+   "language": "TypeScript",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-02-28T13:04:37Z",
+   "first_commit": "2026-02-28T18:31:02Z",
+   "last_commit": "2026-10-26T18:31:02Z",
+   "last_push": "2026-10-26T18:32:38Z",
+   "days_since_push": 5,
+   "commits": 118,
+   "files": 46,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Show transfer speed in the tray icon",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-02": 1,
+    "2026-03": 13,
+    "2026-04": 20,
+    "2026-05": 11,
+    "2026-06": 13,
+    "2026-07": 16,
+    "2026-08": 9,
+    "2026-09": 16,
+    "2026-10": 19
+   },
+   "inscription": "Two keepers, 118 commits, and no pause longer than nine days. Smoke still rises from the chimney.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Five days since the last push, and the longest dry spell was nine. Thriving, if you ask me."
+   }
+  },
+  {
+   "name": "ferrywell-landing",
+   "description": "Landing page for ferrywell",
+   "language": "HTML",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-05-23T14:39:55Z",
+   "first_commit": "2026-05-23T17:09:54Z",
+   "last_commit": "2026-10-20T17:09:54Z",
+   "last_push": "2026-10-20T17:18:45Z",
+   "days_since_push": 11,
+   "commits": 23,
+   "files": 19,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Add pricing table",
+   "archived": false,
+   "live": {
+    "url": "https://www.ferrywell.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-05": 3,
+    "2026-06": 4,
+    "2026-07": 2,
+    "2026-08": 4,
+    "2026-09": 4,
+    "2026-10": 6
+   },
+   "inscription": "Twenty-three commits over sixteen active weeks, and a pricing table to show for it. Quiet for eleven days, but the chimney still smokes.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Six commits in October. Eleven quiet days is nothing, though it once sat dry for 26 days."
+   }
+  },
+  {
+   "name": "ferrywell-legacy",
+   "description": "The original ferrywell prototype in Python",
+   "language": "Python",
+   "category": "product",
+   "client": null,
+   "successor": "ferrywell",
+   "created_at": "2023-11-15T23:16:51Z",
+   "first_commit": "2023-11-16T17:46:21Z",
+   "last_commit": "2024-11-30T17:46:21Z",
+   "last_push": "2024-11-30T17:46:21Z",
+   "days_since_push": 700,
+   "commits": 58,
+   "files": 33,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Archive: superseded by the Rust rewrite",
+   "archived": true,
+   "live": null,
+   "state": "ancestor",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2023-11": 7,
+    "2023-12": 5,
+    "2024-01": 3,
+    "2024-02": 2,
+    "2024-03": 5,
+    "2024-04": 4,
+    "2024-05": 6,
+    "2024-06": 6,
+    "2024-07": 4,
+    "2024-08": 1,
+    "2024-09": 5,
+    "2024-10": 5,
+    "2024-11": 5
+   },
+   "inscription": "The first ferrywell, written in Python over 58 commits by Wren. Its work lives on in ferrywell, and this crypt is kept for it.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out 700 days ago. Wren made 50 of its 58 commits, and the lane was quieter after."
+   }
+  },
+  {
+   "name": "fog-machine",
+   "description": "Particle fog for the browser",
+   "language": "JavaScript",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-12-09T14:29:40Z",
+   "first_commit": "2025-12-10T19:09:57Z",
+   "last_commit": "2026-01-04T19:09:57Z",
+   "last_push": "2026-01-04T19:16:00Z",
+   "days_since_push": 300,
+   "commits": 12,
+   "files": 12,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "it works on my machine",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-12": 9,
+    "2026-01": 3
+   },
+   "inscription": "Twelve commits in four active weeks, the last pushed in January. It worked on the author's machine, which is where it stayed.",
+   "cause_of_death": "Experiment dropped in January after four active weeks, with no successor named.",
+   "npc": {
+    "who": "Hollis",
+    "text": "Dug this one in a hurry, I'd say. Nine commits in December, then \"try again\" and a long quiet."
+   }
+  },
+  {
+   "name": "gloam",
+   "description": "Reading app that dims the page as the evening goes on",
+   "language": "TypeScript",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-04-18T12:31:31Z",
+   "first_commit": "2025-04-18T19:55:49Z",
+   "last_commit": "2026-10-30T19:55:49Z",
+   "last_push": "2026-10-30T20:05:39Z",
+   "days_since_push": 1,
+   "commits": 312,
+   "files": 235,
+   "authors": [
+    "Wren",
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Fade the reading light in over ten minutes",
+   "archived": false,
+   "live": {
+    "url": "https://gloam.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-04": 6,
+    "2025-05": 12,
+    "2025-06": 16,
+    "2025-07": 23,
+    "2025-08": 23,
+    "2025-09": 21,
+    "2025-10": 23,
+    "2025-11": 19,
+    "2025-12": 14,
+    "2026-01": 12,
+    "2026-02": 14,
+    "2026-03": 17,
+    "2026-04": 12,
+    "2026-05": 22,
+    "2026-06": 14,
+    "2026-07": 19,
+    "2026-08": 16,
+    "2026-09": 18,
+    "2026-10": 11
+   },
+   "inscription": "Three hands and 312 commits later, the page still dims as the evening goes on. Someone keeps the lamp lit.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "The worker's memory leak is fixed, so the house sleeps through the night now."
+   }
+  },
+  {
+   "name": "gloam-api",
+   "description": "Sync and accounts for gloam",
+   "language": "Go",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-07-05T06:12:00Z",
+   "first_commit": "2025-07-05T20:47:08Z",
+   "last_commit": "2026-10-28T20:47:08Z",
+   "last_push": "2026-10-28T20:49:50Z",
+   "days_since_push": 3,
+   "commits": 188,
+   "files": 76,
+   "authors": [
+    "Wren",
+    "Otis"
+   ],
+   "last_words": "Return 429 with Retry-After instead of 503",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-07": 10,
+    "2025-08": 5,
+    "2025-09": 10,
+    "2025-10": 13,
+    "2025-11": 15,
+    "2025-12": 16,
+    "2026-01": 19,
+    "2026-02": 7,
+    "2026-03": 16,
+    "2026-04": 5,
+    "2026-05": 18,
+    "2026-06": 9,
+    "2026-07": 12,
+    "2026-08": 14,
+    "2026-09": 12,
+    "2026-10": 7
+   },
+   "inscription": "Sync and accounts for gloam. 188 commits so far, and the chimney is still smoking, so someone is still up with it.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Fixed that flaky test twice. Returning 429 over 503 was the right call. Watch the wip commits."
+   }
+  },
+  {
+   "name": "gloam-docs",
+   "description": "Help centre and API docs for gloam",
+   "language": "JavaScript",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-02-04T09:24:28Z",
+   "first_commit": "2026-02-05T19:35:11Z",
+   "last_commit": "2026-10-23T19:35:11Z",
+   "last_push": "2026-10-23T19:35:46Z",
+   "days_since_push": 8,
+   "commits": 64,
+   "files": 38,
+   "authors": [
+    "Juno",
+    "Wren"
+   ],
+   "last_words": "Document the night mode schedule",
+   "archived": false,
+   "live": {
+    "url": "https://docs.gloam.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-02": 11,
+    "2026-03": 6,
+    "2026-04": 6,
+    "2026-05": 6,
+    "2026-06": 5,
+    "2026-07": 11,
+    "2026-08": 5,
+    "2026-09": 7,
+    "2026-10": 7
+   },
+   "inscription": "Help centre and API docs for gloam, kept by two hands over 64 commits. The lamp is low, but the smoke still rises.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Juno waters most of this bed, 49 of 64 commits. It went dry for 18 days once, then came back up."
+   }
+  },
+  {
+   "name": "gloam-landing",
+   "description": "Landing page for gloam",
+   "language": "HTML",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-12-29T07:39:22Z",
+   "first_commit": "2025-12-29T20:12:05Z",
+   "last_commit": "2026-10-25T20:12:05Z",
+   "last_push": "2026-10-25T20:20:15Z",
+   "days_since_push": 6,
+   "commits": 46,
+   "files": 27,
+   "authors": [
+    "Juno",
+    "Otis"
+   ],
+   "last_words": "Swap the hero screenshot for the autumn release",
+   "archived": false,
+   "live": {
+    "url": "https://www.gloam.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-12": 1,
+    "2026-01": 9,
+    "2026-02": 3,
+    "2026-03": 1,
+    "2026-04": 4,
+    "2026-05": 3,
+    "2026-06": 8,
+    "2026-07": 5,
+    "2026-08": 3,
+    "2026-09": 5,
+    "2026-10": 4
+   },
+   "inscription": "Forty-six commits, two keepers, and the chimney still smokes. The porch light stays on for visitors.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "A 39 day dry spell once, but it came back green. Someone fixed the crash on empty input twice."
+   }
+  },
+  {
+   "name": "gloam-v1",
+   "description": "First version of gloam",
+   "language": "JavaScript",
+   "category": "product",
+   "client": null,
+   "successor": "gloam",
+   "created_at": "2024-05-13T06:12:18Z",
+   "first_commit": "2024-05-14T19:33:34Z",
+   "last_commit": "2025-01-29T19:33:34Z",
+   "last_push": "2025-01-29T19:33:34Z",
+   "days_since_push": 640,
+   "commits": 74,
+   "files": 46,
+   "authors": [
+    "Wren",
+    "Juno"
+   ],
+   "last_words": "Point the README to the new gloam repo",
+   "archived": true,
+   "live": null,
+   "state": "ancestor",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2024-05": 2,
+    "2024-06": 8,
+    "2024-07": 13,
+    "2024-08": 5,
+    "2024-09": 4,
+    "2024-10": 16,
+    "2024-11": 7,
+    "2024-12": 9,
+    "2025-01": 10
+   },
+   "inscription": "First version of gloam, kept by Wren and Juno across 74 commits. The lamp now burns in gloam, its successor.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Hollis",
+    "text": "Not dug in a hurry. Its last commit pointed the README at gloam, the proper way to leave."
+   }
+  },
+  {
+   "name": "gravel-sh",
+   "description": "A shell written in shell",
+   "language": "Shell",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-05-23T12:43:32Z",
+   "first_commit": "2026-05-24T18:28:56Z",
+   "last_commit": "2026-06-23T18:28:56Z",
+   "last_push": "2026-06-23T18:36:47Z",
+   "days_since_push": 130,
+   "commits": 15,
+   "files": 15,
+   "authors": [
+    "Otis"
+   ],
+   "last_words": "Remove the scary rm -rf",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-05": 3,
+    "2026-06": 12
+   },
+   "inscription": "Buried by hand, though it never really died. Fifteen commits, one of them 'try again', and no push in 130 days.",
+   "cause_of_death": "Momentum ran out in June, mid-refactor by the look of 'wip' and 'try again'.",
+   "npc": {
+    "who": "Hollis",
+    "text": "Dug this one in a hurry. Fifteen commits, and one of them still says try again."
+   }
+  },
+  {
+   "name": "hearthbook",
+   "description": "Recipe book for families who share one kitchen",
+   "language": "Kotlin",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-10-27T13:09:06Z",
+   "first_commit": "2025-10-27T21:57:37Z",
+   "last_commit": "2026-10-27T21:57:37Z",
+   "last_push": "2026-10-27T22:04:17Z",
+   "days_since_push": 3,
+   "commits": 156,
+   "files": 116,
+   "authors": [
+    "Otis",
+    "Juno",
+    "Wren"
+   ],
+   "last_words": "Scale ingredient amounts when servings change",
+   "archived": false,
+   "live": {
+    "url": "https://hearthbook.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-10": 3,
+    "2025-11": 13,
+    "2025-12": 12,
+    "2026-01": 13,
+    "2026-02": 15,
+    "2026-03": 9,
+    "2026-04": 10,
+    "2026-05": 13,
+    "2026-06": 14,
+    "2026-07": 9,
+    "2026-08": 17,
+    "2026-09": 20,
+    "2026-10": 8
+   },
+   "inscription": "Recipes for families who share one kitchen. Three cooks, 156 commits, and the chimney is still smoking.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Three gardeners in this bed, Otis the busiest. Watered three days back, still standing tall."
+   }
+  },
+  {
+   "name": "hearthbook-ios",
+   "description": "hearthbook for the phone",
+   "language": "Swift",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-03-24T12:45:46Z",
+   "first_commit": "2026-03-25T18:20:23Z",
+   "last_commit": "2026-10-21T18:20:23Z",
+   "last_push": "2026-10-21T18:21:59Z",
+   "days_since_push": 10,
+   "commits": 92,
+   "files": 46,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Keep the screen awake while cooking",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-03": 6,
+    "2026-04": 15,
+    "2026-05": 13,
+    "2026-06": 8,
+    "2026-07": 16,
+    "2026-08": 10,
+    "2026-09": 15,
+    "2026-10": 9
+   },
+   "inscription": "92 commits from two pairs of hands, and the chimney still smokes. The screen stays awake while the pot is on.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Thirty active weeks of watering. Otis and Juno take turns. Even the wip commits got a drink."
+   }
+  },
+  {
+   "name": "hearthbook-landing",
+   "description": "Landing page for hearthbook",
+   "language": "HTML",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-03-25T07:48:33Z",
+   "first_commit": "2026-03-26T20:25:42Z",
+   "last_commit": "2026-10-12T20:25:42Z",
+   "last_push": "2026-10-12T20:30:13Z",
+   "days_since_push": 19,
+   "commits": 31,
+   "files": 25,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Translate the landing page to Dutch",
+   "archived": false,
+   "live": {
+    "url": "https://www.hearthbook.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-03": 1,
+    "2026-04": 6,
+    "2026-05": 5,
+    "2026-06": 5,
+    "2026-07": 1,
+    "2026-08": 7,
+    "2026-09": 4,
+    "2026-10": 2
+   },
+   "inscription": "Juno keeps the hearthbook landing page warm across 31 commits, through one 34 day lull, with smoke still rising from the chimney.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Juno waters it in bursts. Seven commits in August, then a long dry spell. Still green, though."
+   }
+  },
+  {
+   "name": "hearthbook-proto",
+   "description": "Clickable prototype of hearthbook",
+   "language": "Dart",
+   "category": "product",
+   "client": null,
+   "successor": "hearthbook",
+   "created_at": "2025-02-28T17:01:04Z",
+   "first_commit": "2025-02-28T18:23:54Z",
+   "last_commit": "2025-05-29T18:23:54Z",
+   "last_push": "2025-05-29T18:23:54Z",
+   "days_since_push": 520,
+   "commits": 22,
+   "files": 15,
+   "authors": [
+    "Juno",
+    "Otis"
+   ],
+   "last_words": "Last prototype build before the Kotlin rewrite",
+   "archived": true,
+   "live": null,
+   "state": "ancestor",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-02": 1,
+    "2025-03": 7,
+    "2025-04": 7,
+    "2025-05": 7
+   },
+   "inscription": "Ancestor of hearthbook. Its clickable prototype took 22 commits to build, and the work lives on there.",
+   "cause_of_death": "Superseded by hearthbook after the Kotlin rewrite.",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out on purpose, after one last build ahead of the Kotlin rewrite. I still checked."
+   }
+  },
+  {
+   "name": "hollow-icons",
+   "description": "Outline icon set",
+   "language": "JavaScript",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-03-20T03:33:14Z",
+   "first_commit": "2025-03-20T20:45:41Z",
+   "last_commit": "2025-07-18T20:45:41Z",
+   "last_push": "2025-07-18T20:45:41Z",
+   "days_since_push": 470,
+   "commits": 27,
+   "files": 24,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Add 12 weather icons",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-03": 2,
+    "2025-04": 6,
+    "2025-05": 10,
+    "2025-06": 2,
+    "2025-07": 7
+   },
+   "inscription": "Here rest the outlines of an icon set: 27 commits between March and July 2025, and a README that never grew past one line.",
+   "cause_of_death": "Went quiet after July 2025; the README never got past one line.",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out in July 2025. I still notice the gap in the lane at night."
+   }
+  },
+  {
+   "name": "infra",
+   "description": "Servers, DNS and databases as code",
+   "language": "HCL",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-01-16T12:10:55Z",
+   "first_commit": "2025-01-17T17:53:18Z",
+   "last_commit": "2026-10-29T17:53:18Z",
+   "last_push": "2026-10-29T18:01:50Z",
+   "days_since_push": 2,
+   "commits": 204,
+   "files": 151,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Raise the database disk to 40 GB",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-01": 5,
+    "2025-02": 5,
+    "2025-03": 11,
+    "2025-04": 5,
+    "2025-05": 4,
+    "2025-06": 11,
+    "2025-07": 8,
+    "2025-08": 11,
+    "2025-09": 15,
+    "2025-10": 16,
+    "2025-11": 10,
+    "2025-12": 12,
+    "2026-01": 13,
+    "2026-02": 8,
+    "2026-03": 13,
+    "2026-04": 10,
+    "2026-05": 10,
+    "2026-06": 7,
+    "2026-07": 6,
+    "2026-08": 7,
+    "2026-09": 4,
+    "2026-10": 13
+   },
+   "inscription": "Servers, DNS and databases kept as code by one keeper. 204 commits in, and the chimney is still smoking.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Wren raised the database disk to 40 GB. The bed is well fed, and it has not been dry for long."
+   }
+  },
+  {
+   "name": "inkpot-cli",
+   "description": "Notes from the terminal",
+   "language": "Go",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-08-23T08:13:03Z",
+   "first_commit": "2026-08-24T17:42:40Z",
+   "last_commit": "2026-10-23T17:42:40Z",
+   "last_push": "2026-10-23T17:50:24Z",
+   "days_since_push": 8,
+   "commits": 19,
+   "files": 14,
+   "authors": [
+    "Otis"
+   ],
+   "last_words": "Add --dry-run",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-08": 4,
+    "2026-09": 5,
+    "2026-10": 10
+   },
+   "inscription": "Nineteen commits, one keeper, and a chimney that still smokes. The lamp has been low for eight days.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Ten commits in October and the runtime pinned twice so it stays put. Standing up straight."
+   }
+  },
+  {
+   "name": "kettle-classic",
+   "description": "Shopping list web app, the Rails years",
+   "language": "Ruby",
+   "category": "product",
+   "client": null,
+   "successor": "kettle-sync",
+   "created_at": "2024-06-23T02:44:20Z",
+   "first_commit": "2024-06-23T20:57:44Z",
+   "last_commit": "2025-04-19T20:57:44Z",
+   "last_push": "2025-04-19T20:57:44Z",
+   "days_since_push": 560,
+   "commits": 61,
+   "files": 49,
+   "authors": [
+    "Wren",
+    "Otis"
+   ],
+   "last_words": "Freeze gems before archiving",
+   "archived": true,
+   "live": null,
+   "state": "ancestor",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2024-06": 4,
+    "2024-07": 8,
+    "2024-08": 11,
+    "2024-09": 5,
+    "2024-10": 9,
+    "2024-11": 2,
+    "2024-12": 5,
+    "2025-01": 6,
+    "2025-02": 1,
+    "2025-03": 4,
+    "2025-04": 6
+   },
+   "inscription": "The Rails years of the shopping list, 61 commits strong. Its work lives on in kettle-sync, its successor.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Last light out in April 2025, after the gems were frozen. The lamp burns on in kettle-sync."
+   }
+  },
+  {
+   "name": "kettle-sync",
+   "description": "Keeps shared shopping lists in sync",
+   "language": "Python",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-08-09T15:49:12Z",
+   "first_commit": "2025-08-09T19:58:33Z",
+   "last_commit": "2026-09-13T19:58:33Z",
+   "last_push": "2026-09-13T20:08:20Z",
+   "days_since_push": 48,
+   "commits": 133,
+   "files": 106,
+   "authors": [
+    "Wren",
+    "Bex Morrow"
+   ],
+   "last_words": "Log sync conflicts instead of raising",
+   "archived": false,
+   "live": {
+    "url": "https://kettle.example",
+    "ok": true
+   },
+   "state": "sleeping",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-08": 7,
+    "2025-09": 3,
+    "2025-10": 9,
+    "2025-11": 12,
+    "2025-12": 6,
+    "2026-01": 11,
+    "2026-02": 9,
+    "2026-03": 8,
+    "2026-04": 11,
+    "2026-05": 12,
+    "2026-06": 8,
+    "2026-07": 15,
+    "2026-08": 12,
+    "2026-09": 10
+   },
+   "inscription": "Keeps shared shopping lists in step. Quiet for 48 days, but the light is still on for whoever comes back.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "48 days without a push, yet the site still answers. Wren and Bex left good soil here."
+   }
+  },
+  {
+   "name": "lamplighter",
+   "description": "Chat bot that announces deploys",
+   "language": "TypeScript",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-12-30T22:41:42Z",
+   "first_commit": "2025-12-31T20:59:12Z",
+   "last_commit": "2026-10-27T20:59:12Z",
+   "last_push": "2026-10-27T21:02:57Z",
+   "days_since_push": 4,
+   "commits": 73,
+   "files": 47,
+   "authors": [
+    "Wren",
+    "Otis"
+   ],
+   "last_words": "Mention the person who merged",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-12": 1,
+    "2026-01": 10,
+    "2026-02": 9,
+    "2026-03": 9,
+    "2026-04": 3,
+    "2026-05": 8,
+    "2026-06": 7,
+    "2026-07": 7,
+    "2026-08": 5,
+    "2026-09": 7,
+    "2026-10": 7
+   },
+   "inscription": "Smoke still rises from the chimney. Seventy-three commits, two keepers, and a sync queue that no longer races.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Seventeen dry days once. Wren and Otis watered it back, and it has stayed green since."
+   }
+  },
+  {
+   "name": "lanternfish",
+   "description": "Night sky companion for the phone",
+   "language": "Swift",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-10-30T21:43:40Z",
+   "first_commit": "2025-11-01T17:49:21Z",
+   "last_commit": "2026-08-28T17:49:21Z",
+   "last_push": "2026-08-28T17:51:49Z",
+   "days_since_push": 64,
+   "commits": 97,
+   "files": 49,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Bump build number for 2.3.1",
+   "archived": false,
+   "live": {
+    "url": "https://lanternfish.example",
+    "ok": true
+   },
+   "state": "sleeping",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-11": 9,
+    "2025-12": 12,
+    "2026-01": 11,
+    "2026-02": 12,
+    "2026-03": 7,
+    "2026-04": 12,
+    "2026-05": 6,
+    "2026-06": 7,
+    "2026-07": 9,
+    "2026-08": 12
+   },
+   "inscription": "The light is still on. 97 commits by Otis and Juno, and the sky is still being watched.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Passed the house again last night. Light still on. 64 days quiet, and I still look up."
+   }
+  },
+  {
+   "name": "lanternfish-landing",
+   "description": "Landing page for lanternfish",
+   "language": "HTML",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-04-22T16:32:46Z",
+   "first_commit": "2026-04-23T21:50:02Z",
+   "last_commit": "2026-08-21T21:50:02Z",
+   "last_push": "2026-08-21T21:52:43Z",
+   "days_since_push": 71,
+   "commits": 18,
+   "files": 11,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Add App Store badge",
+   "archived": false,
+   "live": {
+    "url": "https://www.lanternfish.example",
+    "ok": true
+   },
+   "state": "sleeping",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-04": 2,
+    "2026-05": 5,
+    "2026-06": 5,
+    "2026-07": 3,
+    "2026-08": 3
+   },
+   "inscription": "The light is still on. Eighteen commits over eleven active weeks, one author, and the site still answers.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "The site still answers and the light is on. Nothing is wilting, only resting. I'll keep watering."
+   }
+  },
+  {
+   "name": "magpie-scraper",
+   "description": "Collects shiny links",
+   "language": "Python",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-04-05T14:52:48Z",
+   "first_commit": "2026-04-05T17:36:45Z",
+   "last_commit": "2026-10-22T17:36:45Z",
+   "last_push": "2026-10-22T17:46:33Z",
+   "days_since_push": 9,
+   "commits": 38,
+   "files": 30,
+   "authors": [
+    "Bex Morrow"
+   ],
+   "last_words": "Respect robots.txt",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-04": 8,
+    "2026-05": 5,
+    "2026-06": 3,
+    "2026-07": 8,
+    "2026-08": 7,
+    "2026-09": 4,
+    "2026-10": 3
+   },
+   "inscription": "Collects shiny links. 38 commits over 23 active weeks, and the smoke is still rising from the chimney.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Nineteen quiet days once, and it still came back up. Runtime pinned, so it sleeps well."
+   }
+  },
+  {
+   "name": "midnight-chess",
+   "description": "Chess engine that only plays after dark",
+   "language": "TypeScript",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-12-04T21:25:02Z",
+   "first_commit": "2025-12-05T18:01:01Z",
+   "last_commit": "2026-02-13T18:01:01Z",
+   "last_push": "2026-02-13T18:02:25Z",
+   "days_since_push": 260,
+   "commits": 34,
+   "files": 22,
+   "authors": [
+    "Bex Morrow",
+    "Otis"
+   ],
+   "last_words": "Engine now resigns politely",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-12": 8,
+    "2026-01": 16,
+    "2026-02": 10
+   },
+   "inscription": "Here lies a chess engine that only played after dark. Thirty-four commits over eleven active weeks, and it resigned politely.",
+   "cause_of_death": "Ran out of evenings. Last words: a polite resignation and small fixes.",
+   "npc": {
+    "who": "Hollis",
+    "text": "Dug this one in a hurry. Thirty-four commits, and the recent ones say 'more wip'."
+   }
+  },
+  {
+   "name": "moorwatch",
+   "description": "Weather alerts for hikers",
+   "language": "TypeScript",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-05-09T05:58:32Z",
+   "first_commit": "2025-05-09T18:26:30Z",
+   "last_commit": "2026-04-04T18:26:30Z",
+   "last_push": "2026-04-04T18:30:58Z",
+   "days_since_push": 210,
+   "commits": 96,
+   "files": 38,
+   "authors": [
+    "Otis",
+    "Wren",
+    "Juno"
+   ],
+   "last_words": "TODO: ask someone about the API pricing",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-05": 5,
+    "2025-06": 6,
+    "2025-07": 12,
+    "2025-08": 11,
+    "2025-09": 7,
+    "2025-10": 7,
+    "2025-11": 5,
+    "2025-12": 9,
+    "2026-01": 9,
+    "2026-02": 7,
+    "2026-03": 14,
+    "2026-04": 4
+   },
+   "inscription": "Here rests moorwatch, who warned hikers about the weather across 96 commits. Pricing remained a TODO.",
+   "cause_of_death": "Stalled after a TODO about API pricing; nobody pushed again",
+   "npc": {
+    "who": "Hollis",
+    "text": "Ended on a TODO about pricing, right after removing dead code. I dug this one in a hurry."
+   }
+  },
+  {
+   "name": "moorwatch-landing",
+   "description": "Landing page for moorwatch",
+   "language": "HTML",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-01-14T05:41:48Z",
+   "first_commit": "2026-01-14T20:22:43Z",
+   "last_commit": "2026-03-15T20:22:43Z",
+   "last_push": "2026-03-15T20:29:18Z",
+   "days_since_push": 230,
+   "commits": 14,
+   "files": 12,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Add newsletter form",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-01": 7,
+    "2026-02": 4,
+    "2026-03": 3
+   },
+   "inscription": "Fourteen commits over seven active weeks, all by Juno. The README runs to one sentence and says what it is.",
+   "cause_of_death": "Commits thinned every month, then the pushes stopped in March.",
+   "npc": {
+    "who": "Barnaby",
+    "text": "The last light on this lane went out on 15 March. Fourteen commits, then a long dark."
+   }
+  },
+  {
+   "name": "moss-render",
+   "description": "Software renderer for soft shadows",
+   "language": "Rust",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-01-09T08:09:08Z",
+   "first_commit": "2026-01-10T19:28:45Z",
+   "last_commit": "2026-08-18T19:28:45Z",
+   "last_push": "2026-08-18T19:31:06Z",
+   "days_since_push": 74,
+   "commits": 77,
+   "files": 57,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Half-finished shadow pass",
+   "archived": false,
+   "live": null,
+   "state": "hospice",
+   "hospice_days_left": 16,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-01": 2,
+    "2026-02": 15,
+    "2026-03": 11,
+    "2026-04": 9,
+    "2026-05": 14,
+    "2026-06": 5,
+    "2026-07": 15,
+    "2026-08": 6
+   },
+   "inscription": "77 commits, 72 of them from Wren, and the shadow pass was left half finished. The chart is not encouraging.",
+   "cause_of_death": "Shadow pass stopped halfway; no pushes in 74 days",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Lit on and off from January to August. The last light went out halfway through the shadow pass."
+   }
+  },
+  {
+   "name": "night-shift",
+   "description": "Runs jobs at sunset",
+   "language": "Python",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-09-06T22:21:03Z",
+   "first_commit": "2026-09-08T18:02:56Z",
+   "last_commit": "2026-10-18T18:02:56Z",
+   "last_push": "2026-10-18T18:06:44Z",
+   "days_since_push": 13,
+   "commits": 21,
+   "files": 15,
+   "authors": [
+    "Bex Morrow"
+   ],
+   "last_words": "Schedule jobs by sunset time",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-09": 11,
+    "2026-10": 10
+   },
+   "inscription": "Twenty-one commits over six active weeks, and the chimney still smokes. Sleeping, not gone.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Two wip commits, a flaky test fixed twice, a race fixed in the queue. The lamp still burns."
+   }
+  },
+  {
+   "name": "nightjar-wiki",
+   "description": "The old team wiki",
+   "language": "Ruby",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2023-10-26T06:20:50Z",
+   "first_commit": "2023-10-27T19:41:36Z",
+   "last_commit": "2024-05-14T19:41:36Z",
+   "last_push": "2024-05-14T19:41:36Z",
+   "days_since_push": 900,
+   "commits": 22,
+   "files": 12,
+   "authors": [
+    "Juno",
+    "Wren"
+   ],
+   "last_words": "Read-only mode",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2023-10": 3,
+    "2023-11": 3,
+    "2023-12": 2,
+    "2024-01": 5,
+    "2024-02": 3,
+    "2024-03": 1,
+    "2024-04": 2,
+    "2024-05": 3
+   },
+   "inscription": "The old team wiki. Its final commit made it read only, and nobody came back to it.",
+   "cause_of_death": "Last commit made it read only; no one pushed again after May 2024.",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Last light went out in May 2024. Read only mode was its final commit, and I saw nothing after."
+   }
+  },
+  {
+   "name": "owl-pager",
+   "description": "Pages you at night, but quietly",
+   "language": "Python",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-09-23T19:35:35Z",
+   "first_commit": "2025-09-24T18:38:48Z",
+   "last_commit": "2025-09-26T18:38:48Z",
+   "last_push": "2025-09-26T18:47:57Z",
+   "days_since_push": 400,
+   "commits": 3,
+   "files": 5,
+   "authors": [
+    "Bex Morrow"
+   ],
+   "last_words": "first try",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "cross",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-09": 3
+   },
+   "inscription": "Three commits in one active week, a one-line README, and then the night stayed quiet. Rest well.",
+   "cause_of_death": "Three days of experiments, then no return. The README never grew past one line.",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out on the 26th of September. I noticed from the lane. I always notice."
+   }
+  },
+  {
+   "name": "puddle-db",
+   "description": "Key value store, very shallow",
+   "language": "Rust",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-02-18T04:42:41Z",
+   "first_commit": "2025-02-18T18:12:07Z",
+   "last_commit": "2025-03-10T18:12:07Z",
+   "last_push": "2025-03-10T18:12:07Z",
+   "days_since_push": 600,
+   "commits": 9,
+   "files": 8,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Persist pages to disk",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-02": 4,
+    "2025-03": 5
+   },
+   "inscription": "Here lies a key value store that called itself very shallow in its README, and meant it. Nine commits, one author, March 2025.",
+   "cause_of_death": "Abandoned in March 2025 after four active weeks, with no finish line",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Light went out in March 2025. Nine commits, then dark. I still glance at that window on my rounds."
+   }
+  },
+  {
+   "name": "quillmere-edi",
+   "description": "EDI messages to and from carriers",
+   "language": "Java",
+   "category": "client",
+   "client": "Quillmere Freight",
+   "successor": null,
+   "created_at": "2025-04-29T07:27:14Z",
+   "first_commit": "2025-04-29T17:35:05Z",
+   "last_commit": "2025-09-16T17:35:05Z",
+   "last_push": "2025-09-16T17:40:30Z",
+   "days_since_push": 410,
+   "commits": 57,
+   "files": 46,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Map ORDERS segments",
+   "archived": false,
+   "live": null,
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-04": 1,
+    "2025-05": 12,
+    "2025-06": 11,
+    "2025-07": 10,
+    "2025-08": 13,
+    "2025-09": 10
+   },
+   "inscription": "Built for Quillmere Freight: 57 commits across 18 active weeks. Delivered, and kept standing as a monument.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out in September, and it has been dark since. Still, it was kept in good order."
+   }
+  },
+  {
+   "name": "quillmere-portal",
+   "description": "Customer portal for shipments",
+   "language": "TypeScript",
+   "category": "client",
+   "client": "Quillmere Freight",
+   "successor": null,
+   "created_at": "2025-07-07T10:18:25Z",
+   "first_commit": "2025-07-08T17:48:39Z",
+   "last_commit": "2026-06-03T17:48:39Z",
+   "last_push": "2026-06-03T17:50:13Z",
+   "days_since_push": 150,
+   "commits": 203,
+   "files": 82,
+   "authors": [
+    "Otis",
+    "Wren",
+    "Pim Larkspur"
+   ],
+   "last_words": "Final release 1.8.0",
+   "archived": false,
+   "live": {
+    "url": "https://portal.quillmere.example",
+    "ok": true
+   },
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-07": 17,
+    "2025-08": 22,
+    "2025-09": 15,
+    "2025-10": 18,
+    "2025-11": 17,
+    "2025-12": 29,
+    "2026-01": 18,
+    "2026-02": 18,
+    "2026-03": 14,
+    "2026-04": 18,
+    "2026-05": 16,
+    "2026-06": 1
+   },
+   "inscription": "Built for Quillmere Freight by three hands over 203 commits. Final release 1.8.0 shipped, and it has stood since.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its lamp went out after the final release, 1.8.0. Never once sat idle longer than eight days."
+   }
+  },
+  {
+   "name": "quillmere-tracking",
+   "description": "Pallet tracking for the warehouse",
+   "language": "Go",
+   "category": "client",
+   "client": "Quillmere Freight",
+   "successor": null,
+   "created_at": "2025-08-31T05:42:28Z",
+   "first_commit": "2025-09-01T19:27:45Z",
+   "last_commit": "2026-10-26T19:27:45Z",
+   "last_push": "2026-10-26T19:30:52Z",
+   "days_since_push": 5,
+   "commits": 118,
+   "files": 103,
+   "authors": [
+    "Wren",
+    "Pim Larkspur"
+   ],
+   "last_words": "Track pallets per bay",
+   "archived": false,
+   "live": null,
+   "state": "client_active",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": "2026-09-16",
+   "commits_per_month": {
+    "2025-09": 10,
+    "2025-10": 12,
+    "2025-11": 13,
+    "2025-12": 16,
+    "2026-01": 10,
+    "2026-02": 12,
+    "2026-03": 18,
+    "2026-04": 9,
+    "2026-05": 4,
+    "2026-09": 6,
+    "2026-10": 8
+   },
+   "inscription": "118 commits of pallet tracking and one sync race fixed. The bays are still being counted.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Forty weeks of watering, and one dry spell of 130 days. It came back green, which is all I ask."
+   }
+  },
+  {
+   "name": "rune-parser",
+   "description": "Parser combinators, again",
+   "language": "Haskell",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2024-03-25T11:46:54Z",
+   "first_commit": "2024-03-25T18:04:09Z",
+   "last_commit": "2025-08-07T18:04:09Z",
+   "last_push": "2025-08-07T18:04:17Z",
+   "days_since_push": 450,
+   "commits": 180,
+   "files": 156,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Rewrite the lexer, part 4",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2024-03": 5,
+    "2024-04": 12,
+    "2024-05": 7,
+    "2024-06": 7,
+    "2024-07": 12,
+    "2024-08": 11,
+    "2024-09": 11,
+    "2024-10": 15,
+    "2024-11": 13,
+    "2024-12": 5,
+    "2025-01": 9,
+    "2025-02": 10,
+    "2025-03": 11,
+    "2025-04": 10,
+    "2025-05": 13,
+    "2025-06": 11,
+    "2025-07": 11,
+    "2025-08": 7
+   },
+   "inscription": "Here lies the lexer, rewritten in parts, after 180 commits of honest effort. Rest well.",
+   "cause_of_death": "Lexer rewrite, part 4, never reached its end",
+   "npc": {
+    "who": "Hollis",
+    "text": "Dug this one myself. The lexer was half torn out, and no one came back to finish it."
+   }
+  },
+  {
+   "name": "saltgrove-app",
+   "description": "Try on frames with the camera",
+   "language": "Swift",
+   "category": "client",
+   "client": "Saltgrove Opticians",
+   "successor": null,
+   "created_at": "2026-06-11T18:11:30Z",
+   "first_commit": "2026-06-13T17:24:53Z",
+   "last_commit": "2026-10-11T17:24:53Z",
+   "last_push": "2026-10-11T17:30:17Z",
+   "days_since_push": 20,
+   "commits": 64,
+   "files": 58,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Add frame try-on preview",
+   "archived": false,
+   "live": null,
+   "state": "client_active",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-06": 5,
+    "2026-07": 25,
+    "2026-08": 13,
+    "2026-09": 16,
+    "2026-10": 5
+   },
+   "inscription": "Where frames are tried on through the camera. Built by Otis and Juno over 64 commits for Saltgrove Opticians.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Otis and Juno kept this one watered well. Twenty quiet days is a dry spell, not yet a wilt."
+   }
+  },
+  {
+   "name": "saltgrove-booking",
+   "description": "Appointment booking for eye tests",
+   "language": "PHP",
+   "category": "client",
+   "client": "Saltgrove Opticians",
+   "successor": null,
+   "created_at": "2025-08-16T03:49:57Z",
+   "first_commit": "2025-08-17T17:39:03Z",
+   "last_commit": "2026-03-05T17:39:03Z",
+   "last_push": "2026-03-05T17:39:15Z",
+   "days_since_push": 240,
+   "commits": 88,
+   "files": 40,
+   "authors": [
+    "Otis",
+    "Pim Larkspur"
+   ],
+   "last_words": "Send a reminder two days before",
+   "archived": false,
+   "live": {
+    "url": "https://book.saltgrove.example",
+    "ok": true
+   },
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-08": 9,
+    "2025-09": 12,
+    "2025-10": 14,
+    "2025-11": 14,
+    "2025-12": 11,
+    "2026-01": 16,
+    "2026-02": 9,
+    "2026-03": 3
+   },
+   "inscription": "Built for Saltgrove Opticians: 88 commits over 30 active weeks, and never a pause longer than 10 days.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Two hands kept this one lit, Otis and Pim Larkspur. The light went out in March and I noticed."
+   }
+  },
+  {
+   "name": "shipwright",
+   "description": "Release and rollback helpers",
+   "language": "Shell",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-06-08T20:33:03Z",
+   "first_commit": "2025-06-09T19:44:56Z",
+   "last_commit": "2026-10-22T19:44:56Z",
+   "last_push": "2026-10-22T19:54:17Z",
+   "days_since_push": 9,
+   "commits": 67,
+   "files": 57,
+   "authors": [
+    "Wren",
+    "Otis"
+   ],
+   "last_words": "Retry the health check three times before rollback",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-06": 2,
+    "2025-07": 6,
+    "2025-08": 2,
+    "2025-09": 3,
+    "2025-10": 7,
+    "2025-11": 9,
+    "2025-12": 2,
+    "2026-01": 4,
+    "2026-02": 2,
+    "2026-03": 3,
+    "2026-04": 2,
+    "2026-05": 2,
+    "2026-06": 5,
+    "2026-07": 5,
+    "2026-08": 9,
+    "2026-10": 4
+   },
+   "inscription": "Helpers for releasing and rolling back, tended by Wren and Otis across sixty-seven commits. The chimney is smoking.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Pagination was fixed twice and rollbacks now retry the health check first. Someone is minding it."
+   }
+  },
+  {
+   "name": "sparrow-chat",
+   "description": "Group chat for small teams",
+   "language": "Elixir",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2023-06-18T01:45:31Z",
+   "first_commit": "2023-06-19T17:42:38Z",
+   "last_commit": "2024-12-10T17:42:38Z",
+   "last_push": "2024-12-10T17:42:38Z",
+   "days_since_push": 690,
+   "commits": 210,
+   "files": 93,
+   "authors": [
+    "Wren",
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Shut down the public server",
+   "archived": true,
+   "live": null,
+   "state": "buried",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2023-06": 12,
+    "2023-07": 11,
+    "2023-08": 9,
+    "2023-09": 11,
+    "2023-10": 7,
+    "2023-11": 7,
+    "2023-12": 11,
+    "2024-01": 15,
+    "2024-02": 12,
+    "2024-03": 12,
+    "2024-04": 18,
+    "2024-05": 13,
+    "2024-06": 6,
+    "2024-07": 13,
+    "2024-08": 19,
+    "2024-09": 12,
+    "2024-10": 11,
+    "2024-11": 7,
+    "2024-12": 4
+   },
+   "inscription": "Group chat for small teams. Three authors, 210 commits and 69 active weeks, and the README never needed more than one line.",
+   "cause_of_death": "Public server shut down; commit pace thinned out through late 2024",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Commits dwindled from 19 in August 2024 to 4 in December. Then the public server went dark."
+   }
+  },
+  {
+   "name": "status-page",
+   "description": "Public status page",
+   "language": "JavaScript",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-01-08T11:21:35Z",
+   "first_commit": "2026-01-09T17:55:49Z",
+   "last_commit": "2026-07-28T17:55:49Z",
+   "last_push": "2026-07-28T17:57:25Z",
+   "days_since_push": 95,
+   "commits": 29,
+   "files": 19,
+   "authors": [
+    "Otis"
+   ],
+   "last_words": "Add maintenance banner",
+   "archived": false,
+   "live": {
+    "url": "https://status.tallowmoor.example",
+    "ok": true
+   },
+   "state": "sleeping",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-01": 2,
+    "2026-02": 4,
+    "2026-03": 4,
+    "2026-04": 4,
+    "2026-05": 6,
+    "2026-06": 5,
+    "2026-07": 4
+   },
+   "inscription": "Still lit. Otis left 29 commits here, and the page still answers when you knock on it.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "95 days since the last push, and the light in that window is still on. I notice when they go out."
+   }
+  },
+  {
+   "name": "sundial-api",
+   "description": "Time zones as a service",
+   "language": "Ruby",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-04-06T15:10:49Z",
+   "first_commit": "2026-04-06T20:47:22Z",
+   "last_commit": "2026-09-03T20:47:22Z",
+   "last_push": "2026-09-03T20:47:39Z",
+   "days_since_push": 58,
+   "commits": 26,
+   "files": 21,
+   "authors": [
+    "Bex Morrow",
+    "Wren"
+   ],
+   "last_words": "Move time zone data to a gem",
+   "archived": false,
+   "live": {
+    "url": "https://sundial.example",
+    "ok": false
+   },
+   "state": "hospice",
+   "hospice_days_left": 32,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-04": 2,
+    "2026-05": 3,
+    "2026-06": 4,
+    "2026-07": 9,
+    "2026-08": 6,
+    "2026-09": 2
+   },
+   "inscription": "Quiet for 58 days, with 32 left before the grave. Its last commit moved the time zone data into a gem.",
+   "cause_of_death": "Its core data moved into a gem, leaving the service little to do",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its last light went out 3 September. Two commits that month, then the lane stayed dark."
+   }
+  },
+  {
+   "name": "tallowmoor-handbook",
+   "description": "How we work",
+   "language": null,
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-03-03T20:04:21Z",
+   "first_commit": "2025-03-05T19:44:34Z",
+   "last_commit": "2026-10-26T19:44:34Z",
+   "last_push": "2026-10-26T19:49:18Z",
+   "days_since_push": 5,
+   "commits": 88,
+   "files": 61,
+   "authors": [
+    "Juno",
+    "Otis",
+    "Wren"
+   ],
+   "last_words": "Add the on-call checklist",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-03": 3,
+    "2025-04": 1,
+    "2025-05": 5,
+    "2025-06": 2,
+    "2025-07": 9,
+    "2025-08": 8,
+    "2025-09": 6,
+    "2025-10": 4,
+    "2025-11": 1,
+    "2025-12": 5,
+    "2026-01": 9,
+    "2026-02": 4,
+    "2026-03": 5,
+    "2026-04": 2,
+    "2026-05": 6,
+    "2026-06": 7,
+    "2026-07": 1,
+    "2026-08": 4,
+    "2026-09": 3,
+    "2026-10": 3
+   },
+   "inscription": "How we work, written down so nobody has to ask twice. Three hands have kept the lamp lit.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Juno did most of the watering. 42 days went dry once, and I still think about it."
+   }
+  },
+  {
+   "name": "tallowmoor-website",
+   "description": "Our own website",
+   "language": "HTML",
+   "category": "internal",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-06-21T15:55:43Z",
+   "first_commit": "2025-06-22T18:33:08Z",
+   "last_commit": "2026-10-15T18:33:08Z",
+   "last_push": "2026-10-15T18:41:23Z",
+   "days_since_push": 16,
+   "commits": 54,
+   "files": 45,
+   "authors": [
+    "Juno",
+    "Otis"
+   ],
+   "last_words": "Add the autumn job posting",
+   "archived": false,
+   "live": {
+    "url": "https://tallowmoor.example",
+    "ok": true
+   },
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-06": 2,
+    "2025-07": 3,
+    "2025-08": 2,
+    "2025-09": 3,
+    "2025-10": 1,
+    "2025-11": 4,
+    "2025-12": 2,
+    "2026-01": 4,
+    "2026-02": 4,
+    "2026-03": 8,
+    "2026-04": 2,
+    "2026-05": 5,
+    "2026-06": 2,
+    "2026-07": 5,
+    "2026-08": 3,
+    "2026-09": 2,
+    "2026-10": 2
+   },
+   "inscription": "Our own house, raised by Juno and Otis over 54 commits. The chimney still smokes and the lamp is still on.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Most months it gets a few commits. It went 29 days dry once and still came back up nicely."
+   }
+  },
+  {
+   "name": "teacup-orm",
+   "description": "An ORM that fits in a teacup",
+   "language": "PHP",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-05-09T06:51:13Z",
+   "first_commit": "2026-05-09T21:30:05Z",
+   "last_commit": "2026-10-16T21:30:05Z",
+   "last_push": "2026-10-16T21:33:56Z",
+   "days_since_push": 15,
+   "commits": 41,
+   "files": 20,
+   "authors": [
+    "Otis"
+   ],
+   "last_words": "Add lazy loading for relations",
+   "archived": false,
+   "live": null,
+   "state": "alive",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-05": 6,
+    "2026-06": 10,
+    "2026-07": 3,
+    "2026-08": 7,
+    "2026-09": 10,
+    "2026-10": 5
+   },
+   "inscription": "Forty-one commits and twenty-two active weeks, and the kettle is still on. Keep an eye on the worker's memory.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "The worker's memory leak was fixed twice, so I keep an eye on that root. Otis still waters it."
+   }
+  },
+  {
+   "name": "thimble-vm",
+   "description": "The smallest virtual machine we could think of",
+   "language": "C",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-05-25T03:09:35Z",
+   "first_commit": "2025-05-26T17:14:48Z",
+   "last_commit": "2025-05-29T17:14:48Z",
+   "last_push": "2025-05-29T17:18:07Z",
+   "days_since_push": 520,
+   "commits": 4,
+   "files": 7,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Opcode table, half done",
+   "archived": false,
+   "live": null,
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "cross",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2025-05": 4
+   },
+   "inscription": "Here lies the smallest virtual machine we could think of. Four commits in one week; the opcode table stayed half done.",
+   "cause_of_death": "Abandoned mid-build after one week; the opcode table was never finished.",
+   "npc": {
+    "who": "Hollis",
+    "text": "Dug this one in a hurry. Four commits, one week, and the opcode table still half finished."
+   }
+  },
+  {
+   "name": "tindervale-members",
+   "description": "Member list and fees",
+   "language": "Ruby",
+   "category": "client",
+   "client": "Tindervale Rowing Club",
+   "successor": null,
+   "created_at": "2024-10-01T05:10:48Z",
+   "first_commit": "2024-10-01T18:00:52Z",
+   "last_commit": "2025-06-18T18:00:52Z",
+   "last_push": "2025-06-18T18:08:50Z",
+   "days_since_push": 500,
+   "commits": 71,
+   "files": 62,
+   "authors": [
+    "Wren",
+    "Pim Larkspur"
+   ],
+   "last_words": "Export members for the annual meeting",
+   "archived": false,
+   "live": null,
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2024-10": 8,
+    "2024-11": 6,
+    "2024-12": 8,
+    "2025-01": 5,
+    "2025-02": 10,
+    "2025-03": 7,
+    "2025-04": 9,
+    "2025-05": 11,
+    "2025-06": 7
+   },
+   "inscription": "Delivered to the Tindervale Rowing Club with 71 commits from two hands. The final push exported the list for the annual meeting.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its light went out in June 2025 after the export. Still standing, so I pass it every night."
+   }
+  },
+  {
+   "name": "tindervale-regatta",
+   "description": "Results app for the regatta",
+   "language": "Dart",
+   "category": "client",
+   "client": "Tindervale Rowing Club",
+   "successor": null,
+   "created_at": "2026-07-21T15:59:17Z",
+   "first_commit": "2026-07-22T19:56:48Z",
+   "last_commit": "2026-10-05T19:56:48Z",
+   "last_push": "2026-10-05T20:00:35Z",
+   "days_since_push": 26,
+   "commits": 49,
+   "files": 26,
+   "authors": [
+    "Otis",
+    "Juno"
+   ],
+   "last_words": "Live lane times on the big screen",
+   "archived": false,
+   "live": null,
+   "state": "client_active",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-07": 11,
+    "2026-08": 19,
+    "2026-09": 15,
+    "2026-10": 4
+   },
+   "inscription": "Regatta results for Tindervale Rowing Club, built by Otis and Juno over twelve active weeks. Still rowing between heats.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "26 days since the last push, and still no wilting. Otis and Juno kept the beds tidy."
+   }
+  },
+  {
+   "name": "tindervale-site",
+   "description": "Website of the rowing club",
+   "language": "HTML",
+   "category": "client",
+   "client": "Tindervale Rowing Club",
+   "successor": null,
+   "created_at": "2026-05-22T23:17:14Z",
+   "first_commit": "2026-05-24T20:46:51Z",
+   "last_commit": "2026-06-23T20:46:51Z",
+   "last_push": "2026-06-23T20:54:23Z",
+   "days_since_push": 130,
+   "commits": 17,
+   "files": 11,
+   "authors": [
+    "Juno"
+   ],
+   "last_words": "Update season dates",
+   "archived": false,
+   "live": {
+    "url": "https://www.tindervale.example",
+    "ok": true
+   },
+   "state": "delivered",
+   "hospice_days_left": null,
+   "grave_tier": "stone",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-05": 4,
+    "2026-06": 13
+   },
+   "inscription": "For Tindervale Rowing Club, built by Juno in six active weeks. Delivered, and standing as handed over.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Barnaby",
+    "text": "Its last light went out in June. Between commits it never sat dark longer than three days."
+   }
+  },
+  {
+   "name": "wickstat",
+   "description": "Tiny uptime dashboard",
+   "language": "Elixir",
+   "category": "product",
+   "client": null,
+   "successor": null,
+   "created_at": "2025-10-28T10:43:13Z",
+   "first_commit": "2025-10-28T18:05:43Z",
+   "last_commit": "2026-09-23T18:05:43Z",
+   "last_push": "2026-09-23T18:13:22Z",
+   "days_since_push": 38,
+   "commits": 52,
+   "files": 31,
+   "authors": [
+    "Wren"
+   ],
+   "last_words": "Upgrade Phoenix and fix the broken charts",
+   "archived": false,
+   "live": {
+    "url": "https://wickstat.example",
+    "ok": true
+   },
+   "state": "sleeping",
+   "hospice_days_left": null,
+   "grave_tier": "mausoleum",
+   "resurrected_at": "2026-08-30",
+   "commits_per_month": {
+    "2025-10": 1,
+    "2025-11": 7,
+    "2025-12": 6,
+    "2026-01": 12,
+    "2026-02": 4,
+    "2026-03": 8,
+    "2026-04": 6,
+    "2026-08": 1,
+    "2026-09": 7
+   },
+   "inscription": "A light is still on in this house. Fifty-two commits, a worker's memory leak patched twice, and the site still answers.",
+   "cause_of_death": "",
+   "npc": {
+    "who": "Marigold",
+    "text": "Wren watered this one all winter. Quiet 38 days, but the site still answers. Not wilting yet."
+   }
+  },
+  {
+   "name": "willow-ml",
+   "description": "Predicts when the willow loses its leaves",
+   "language": "Python",
+   "category": "experiment",
+   "client": null,
+   "successor": null,
+   "created_at": "2026-07-12T02:37:22Z",
+   "first_commit": "2026-07-13T19:50:30Z",
+   "last_commit": "2026-10-11T19:50:30Z",
+   "last_push": "2026-10-11T19:52:37Z",
+   "days_since_push": 20,
+   "commits": 46,
+   "files": 31,
+   "authors": [
+    "Bex Morrow",
+    "Wren"
+   ],
+   "last_words": "Train on the full dataset tonight",
+   "archived": false,
+   "live": {
+    "url": "https://willow.example",
+    "ok": true
+   },
+   "state": "dead",
+   "hospice_days_left": null,
+   "grave_tier": "marble",
+   "resurrected_at": null,
+   "commits_per_month": {
+    "2026-07": 12,
+    "2026-08": 14,
+    "2026-09": 17,
+    "2026-10": 3
+   },
+   "inscription": "Forty-six commits over thirteen weeks spent guessing when the willow lets go. Buried by hand, though the willow kept its leaves.",
+   "cause_of_death": "Experiment set aside after its October push; no client, no successor",
+   "npc": {
+    "who": "Hollis",
+    "text": "Seventeen commits in September, then three in October. I dug this one by hand, and quickly."
+   }
+  }
+ ]
+}

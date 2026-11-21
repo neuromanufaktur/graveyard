@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "functions": {
+    "api/refresh.js": { "maxDuration": 300, "includeFiles": "data/*.json" },
+    "api/world.js": { "includeFiles": "data/world.json" },
+    "api/tribute.js": { "includeFiles": "data/world.json" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+ "schema_version": 1,
+ "as_of": "2026-06-01T12:00:00+00:00",
+ "live": {
+  "alpha-app": {
+   "url": "https://alpha.example.com",
+   "status": 200,
+   "server": "demo",
+   "title": "Alpha",
+   "final_url": "https://alpha.example.com/",
+   "ok": true,
+   "reason": null
+  },
+  "beta-tool": {
+   "url": "https://beta.example.com",
+   "status": 200,
+   "server": "demo",
+   "title": "Beta",
+   "final_url": "https://beta.example.com/",
+   "ok": true,
+   "reason": null
+  },
+  "buried-idea": {
+   "url": "https://idea.example.com",
+   "status": 200,
+   "server": "demo",
+   "title": "Idea",
+   "final_url": "https://idea.example.com/",
+   "ok": true,
+   "reason": null
+  }
+ }
+}

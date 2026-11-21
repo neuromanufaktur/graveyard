@@ -1,0 +1,87 @@
+# Keeps the village current without any storage: runs the pipeline every night and on demand and
+# commits data/world.json and the inscription cache data/epitaphs.json when they changed. A Vercel
+# project connected to this repository deploys that commit on its own.
+#
+# Secrets (Settings > Secrets and variables > Actions), both optional:
+#   GRAVEYARD_GITHUB_TOKEN  read-only token that can see the repos of your organisation or user.
+#                           Without it the workflow's own token is used, which only sees public repos.
+#   ANTHROPIC_API_KEY       with it, repos with new commits get inscriptions written by Claude;
+#                           without it every repo keeps its inscription or gets a plain one from facts.
+#
+# world.json lists every repo the token can see. If private repos are part of the village, keep
+# this repository private as well. raw.json (commit messages, READMEs) is never committed; it stays
+# in the Actions cache so the next run only reads repos with new commits.
+name: Update world
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-world
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip while the configuration is still the demo
+        id: config
+        run: |
+          owner=$(node -p "const c = require('./graveyard.config.json'); c.owner || c.org")
+          if [ "$owner" = "tallowmoor" ]; then
+            echo "graveyard.config.json still describes the demo village; set owner to your organisation or user."
+            echo "demo=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.config.outputs.demo != 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        if: steps.config.outputs.demo != 'true'
+
+      - name: Restore the raw data of the last run
+        if: steps.config.outputs.demo != 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: data/raw.json
+          key: graveyard-raw-${{ github.run_id }}
+          restore-keys: graveyard-raw-
+
+      - name: Run the pipeline
+        if: steps.config.outputs.demo != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GRAVEYARD_GITHUB_TOKEN || github.token }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run pipeline
+
+      - name: Keep the raw data for the next run
+        if: steps.config.outputs.demo != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: data/raw.json
+          key: graveyard-raw-${{ github.run_id }}
+
+      - name: Commit the world when it changed
+        if: steps.config.outputs.demo != 'true'
+        run: |
+          git add data/world.json data/epitaphs.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update world"
+          git pull --rebase
+          git push

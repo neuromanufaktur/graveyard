@@ -1,0 +1,1143 @@
+{
+ "schema_version": 1,
+ "as_of": "2026-06-01T12:00:00+00:00",
+ "org": "example-org",
+ "repos": [
+  {
+   "name": "ottermere-portal",
+   "description": "Customer portal",
+   "language": "TypeScript",
+   "created_at": "2026-01-22T12:00:00Z",
+   "last_push": "2026-05-22T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [
+    "graveyard-client",
+    "graveyard-client-ottermere"
+   ],
+   "default_branch": "main",
+   "commits": 64,
+   "first_commit": "2026-01-22T12:00:00Z",
+   "last_commit": "2026-05-22T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2026-01-22T12:00:00Z",
+    "2026-01-24T12:00:00Z",
+    "2026-01-26T12:00:00Z",
+    "2026-01-28T12:00:00Z",
+    "2026-01-30T12:00:00Z",
+    "2026-02-01T12:00:00Z",
+    "2026-02-02T12:00:00Z",
+    "2026-02-04T12:00:00Z",
+    "2026-02-06T12:00:00Z",
+    "2026-02-08T12:00:00Z",
+    "2026-02-10T12:00:00Z",
+    "2026-02-12T12:00:00Z",
+    "2026-02-14T12:00:00Z",
+    "2026-02-16T12:00:00Z",
+    "2026-02-18T12:00:00Z",
+    "2026-02-20T12:00:00Z",
+    "2026-02-21T12:00:00Z",
+    "2026-02-23T12:00:00Z",
+    "2026-02-25T12:00:00Z",
+    "2026-02-27T12:00:00Z",
+    "2026-03-01T12:00:00Z",
+    "2026-03-03T12:00:00Z",
+    "2026-03-05T12:00:00Z",
+    "2026-03-07T12:00:00Z",
+    "2026-03-09T12:00:00Z",
+    "2026-03-11T12:00:00Z",
+    "2026-03-13T12:00:00Z",
+    "2026-03-14T12:00:00Z",
+    "2026-03-16T12:00:00Z",
+    "2026-03-18T12:00:00Z",
+    "2026-03-20T12:00:00Z",
+    "2026-03-22T12:00:00Z",
+    "2026-03-24T12:00:00Z",
+    "2026-03-26T12:00:00Z",
+    "2026-03-28T12:00:00Z",
+    "2026-03-30T12:00:00Z",
+    "2026-04-01T12:00:00Z",
+    "2026-04-02T12:00:00Z",
+    "2026-04-04T12:00:00Z",
+    "2026-04-06T12:00:00Z",
+    "2026-04-08T12:00:00Z",
+    "2026-04-10T12:00:00Z",
+    "2026-04-12T12:00:00Z",
+    "2026-04-14T12:00:00Z",
+    "2026-04-16T12:00:00Z",
+    "2026-04-18T12:00:00Z",
+    "2026-04-20T12:00:00Z",
+    "2026-04-22T12:00:00Z",
+    "2026-04-23T12:00:00Z",
+    "2026-04-25T12:00:00Z",
+    "2026-04-27T12:00:00Z",
+    "2026-04-29T12:00:00Z",
+    "2026-05-01T12:00:00Z",
+    "2026-05-03T12:00:00Z",
+    "2026-05-05T12:00:00Z",
+    "2026-05-07T12:00:00Z",
+    "2026-05-09T12:00:00Z",
+    "2026-05-11T12:00:00Z",
+    "2026-05-12T12:00:00Z",
+    "2026-05-14T12:00:00Z",
+    "2026-05-16T12:00:00Z",
+    "2026-05-18T12:00:00Z",
+    "2026-05-20T12:00:00Z",
+    "2026-05-22T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2026-01": 5,
+    "2026-02": 15,
+    "2026-03": 16,
+    "2026-04": 16,
+    "2026-05": 12
+   },
+   "longest_pause_days": 2,
+   "active_weeks": 18,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 45
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 19
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# ottermere-portal\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-ottermere-portal",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "ottermere-shop",
+   "description": "Online shop",
+   "language": "JavaScript",
+   "created_at": "2025-08-15T12:00:00Z",
+   "last_push": "2025-11-13T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [
+    "graveyard-client-ottermere"
+   ],
+   "default_branch": "main",
+   "commits": 31,
+   "first_commit": "2025-08-15T12:00:00Z",
+   "last_commit": "2025-11-13T12:00:00Z",
+   "last_words": "Final handover",
+   "commit_dates": [
+    "2025-08-15T12:00:00Z",
+    "2025-08-18T12:00:00Z",
+    "2025-08-21T12:00:00Z",
+    "2025-08-24T12:00:00Z",
+    "2025-08-27T12:00:00Z",
+    "2025-08-30T12:00:00Z",
+    "2025-09-02T12:00:00Z",
+    "2025-09-05T12:00:00Z",
+    "2025-09-08T12:00:00Z",
+    "2025-09-11T12:00:00Z",
+    "2025-09-14T12:00:00Z",
+    "2025-09-17T12:00:00Z",
+    "2025-09-20T12:00:00Z",
+    "2025-09-23T12:00:00Z",
+    "2025-09-26T12:00:00Z",
+    "2025-09-29T12:00:00Z",
+    "2025-10-02T12:00:00Z",
+    "2025-10-05T12:00:00Z",
+    "2025-10-08T12:00:00Z",
+    "2025-10-11T12:00:00Z",
+    "2025-10-14T12:00:00Z",
+    "2025-10-17T12:00:00Z",
+    "2025-10-20T12:00:00Z",
+    "2025-10-23T12:00:00Z",
+    "2025-10-26T12:00:00Z",
+    "2025-10-29T12:00:00Z",
+    "2025-11-01T12:00:00Z",
+    "2025-11-04T12:00:00Z",
+    "2025-11-07T12:00:00Z",
+    "2025-11-10T12:00:00Z",
+    "2025-11-13T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2025-08": 6,
+    "2025-09": 10,
+    "2025-10": 10,
+    "2025-11": 5
+   },
+   "longest_pause_days": 3,
+   "active_weeks": 14,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 22
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 9
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# ottermere-shop\n\nAn invented example repository.",
+   "recent_commits": [
+    "Final handover",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-ottermere-shop",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "alpha-app",
+   "description": "The flagship app",
+   "language": "TypeScript",
+   "created_at": "2025-08-03T12:00:00Z",
+   "last_push": "2026-05-30T12:00:00Z",
+   "archived": false,
+   "homepage": "https://alpha.example.com",
+   "topics": [
+    "graveyard-product"
+   ],
+   "default_branch": "main",
+   "commits": 140,
+   "first_commit": "2025-08-03T12:00:00Z",
+   "last_commit": "2026-05-30T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2025-08-03T12:00:00Z",
+    "2025-08-05T12:00:00Z",
+    "2025-08-07T12:00:00Z",
+    "2025-08-09T12:00:00Z",
+    "2025-08-12T12:00:00Z",
+    "2025-08-14T12:00:00Z",
+    "2025-08-16T12:00:00Z",
+    "2025-08-18T12:00:00Z",
+    "2025-08-20T12:00:00Z",
+    "2025-08-22T12:00:00Z",
+    "2025-08-25T12:00:00Z",
+    "2025-08-27T12:00:00Z",
+    "2025-08-29T12:00:00Z",
+    "2025-08-31T12:00:00Z",
+    "2025-09-02T12:00:00Z",
+    "2025-09-04T12:00:00Z",
+    "2025-09-07T12:00:00Z",
+    "2025-09-09T12:00:00Z",
+    "2025-09-11T12:00:00Z",
+    "2025-09-13T12:00:00Z",
+    "2025-09-15T12:00:00Z",
+    "2025-09-17T12:00:00Z",
+    "2025-09-19T12:00:00Z",
+    "2025-09-22T12:00:00Z",
+    "2025-09-24T12:00:00Z",
+    "2025-09-26T12:00:00Z",
+    "2025-09-28T12:00:00Z",
+    "2025-09-30T12:00:00Z",
+    "2025-10-02T12:00:00Z",
+    "2025-10-05T12:00:00Z",
+    "2025-10-07T12:00:00Z",
+    "2025-10-09T12:00:00Z",
+    "2025-10-11T12:00:00Z",
+    "2025-10-13T12:00:00Z",
+    "2025-10-15T12:00:00Z",
+    "2025-10-18T12:00:00Z",
+    "2025-10-20T12:00:00Z",
+    "2025-10-22T12:00:00Z",
+    "2025-10-24T12:00:00Z",
+    "2025-10-26T12:00:00Z",
+    "2025-10-28T12:00:00Z",
+    "2025-10-30T12:00:00Z",
+    "2025-11-02T12:00:00Z",
+    "2025-11-04T12:00:00Z",
+    "2025-11-06T12:00:00Z",
+    "2025-11-08T12:00:00Z",
+    "2025-11-10T12:00:00Z",
+    "2025-11-12T12:00:00Z",
+    "2025-11-15T12:00:00Z",
+    "2025-11-17T12:00:00Z",
+    "2025-11-19T12:00:00Z",
+    "2025-11-21T12:00:00Z",
+    "2025-11-23T12:00:00Z",
+    "2025-11-25T12:00:00Z",
+    "2025-11-28T12:00:00Z",
+    "2025-11-30T12:00:00Z",
+    "2025-12-02T12:00:00Z",
+    "2025-12-04T12:00:00Z",
+    "2025-12-06T12:00:00Z",
+    "2025-12-08T12:00:00Z",
+    "2025-12-10T12:00:00Z",
+    "2025-12-13T12:00:00Z",
+    "2025-12-15T12:00:00Z",
+    "2025-12-17T12:00:00Z",
+    "2025-12-19T12:00:00Z",
+    "2025-12-21T12:00:00Z",
+    "2025-12-23T12:00:00Z",
+    "2025-12-26T12:00:00Z",
+    "2025-12-28T12:00:00Z",
+    "2025-12-30T12:00:00Z",
+    "2026-01-01T12:00:00Z",
+    "2026-01-03T12:00:00Z",
+    "2026-01-05T12:00:00Z",
+    "2026-01-08T12:00:00Z",
+    "2026-01-10T12:00:00Z",
+    "2026-01-12T12:00:00Z",
+    "2026-01-14T12:00:00Z",
+    "2026-01-16T12:00:00Z",
+    "2026-01-18T12:00:00Z",
+    "2026-01-21T12:00:00Z",
+    "2026-01-23T12:00:00Z",
+    "2026-01-25T12:00:00Z",
+    "2026-01-27T12:00:00Z",
+    "2026-01-29T12:00:00Z",
+    "2026-01-31T12:00:00Z",
+    "2026-02-02T12:00:00Z",
+    "2026-02-05T12:00:00Z",
+    "2026-02-07T12:00:00Z",
+    "2026-02-09T12:00:00Z",
+    "2026-02-11T12:00:00Z",
+    "2026-02-13T12:00:00Z",
+    "2026-02-15T12:00:00Z",
+    "2026-02-18T12:00:00Z",
+    "2026-02-20T12:00:00Z",
+    "2026-02-22T12:00:00Z",
+    "2026-02-24T12:00:00Z",
+    "2026-02-26T12:00:00Z",
+    "2026-02-28T12:00:00Z",
+    "2026-03-03T12:00:00Z",
+    "2026-03-05T12:00:00Z",
+    "2026-03-07T12:00:00Z",
+    "2026-03-09T12:00:00Z",
+    "2026-03-11T12:00:00Z",
+    "2026-03-13T12:00:00Z",
+    "2026-03-15T12:00:00Z",
+    "2026-03-18T12:00:00Z",
+    "2026-03-20T12:00:00Z",
+    "2026-03-22T12:00:00Z",
+    "2026-03-24T12:00:00Z",
+    "2026-03-26T12:00:00Z",
+    "2026-03-28T12:00:00Z",
+    "2026-03-31T12:00:00Z",
+    "2026-04-02T12:00:00Z",
+    "2026-04-04T12:00:00Z",
+    "2026-04-06T12:00:00Z",
+    "2026-04-08T12:00:00Z",
+    "2026-04-10T12:00:00Z",
+    "2026-04-13T12:00:00Z",
+    "2026-04-15T12:00:00Z",
+    "2026-04-17T12:00:00Z",
+    "2026-04-19T12:00:00Z",
+    "2026-04-21T12:00:00Z",
+    "2026-04-23T12:00:00Z",
+    "2026-04-25T12:00:00Z",
+    "2026-04-28T12:00:00Z",
+    "2026-04-30T12:00:00Z",
+    "2026-05-02T12:00:00Z",
+    "2026-05-04T12:00:00Z",
+    "2026-05-06T12:00:00Z",
+    "2026-05-08T12:00:00Z",
+    "2026-05-11T12:00:00Z",
+    "2026-05-13T12:00:00Z",
+    "2026-05-15T12:00:00Z",
+    "2026-05-17T12:00:00Z",
+    "2026-05-19T12:00:00Z",
+    "2026-05-21T12:00:00Z",
+    "2026-05-24T12:00:00Z",
+    "2026-05-26T12:00:00Z",
+    "2026-05-28T12:00:00Z",
+    "2026-05-30T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2025-08": 14,
+    "2025-09": 14,
+    "2025-10": 14,
+    "2025-11": 14,
+    "2025-12": 14,
+    "2026-01": 15,
+    "2026-02": 13,
+    "2026-03": 14,
+    "2026-04": 14,
+    "2026-05": 14
+   },
+   "longest_pause_days": 3,
+   "active_weeks": 44,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 98
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 42
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# alpha-app\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-alpha-app",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "alpha-landing",
+   "description": null,
+   "language": "HTML",
+   "created_at": "2026-03-25T12:00:00Z",
+   "last_push": "2026-05-24T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [
+    "graveyard-product"
+   ],
+   "default_branch": "main",
+   "commits": 12,
+   "first_commit": "2026-03-25T12:00:00Z",
+   "last_commit": "2026-05-24T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2026-03-25T12:00:00Z",
+    "2026-03-30T12:00:00Z",
+    "2026-04-05T12:00:00Z",
+    "2026-04-10T12:00:00Z",
+    "2026-04-16T12:00:00Z",
+    "2026-04-21T12:00:00Z",
+    "2026-04-27T12:00:00Z",
+    "2026-05-02T12:00:00Z",
+    "2026-05-08T12:00:00Z",
+    "2026-05-13T12:00:00Z",
+    "2026-05-19T12:00:00Z",
+    "2026-05-24T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2026-03": 2,
+    "2026-04": 5,
+    "2026-05": 5
+   },
+   "longest_pause_days": 6,
+   "active_weeks": 9,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 9
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 3
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# alpha-landing\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-alpha-landing",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "beta-tool",
+   "description": null,
+   "language": "Python",
+   "created_at": "2025-12-23T12:00:00Z",
+   "last_push": "2026-04-02T12:00:00Z",
+   "archived": false,
+   "homepage": "https://beta.example.com",
+   "topics": [
+    "graveyard-product"
+   ],
+   "default_branch": "main",
+   "commits": 23,
+   "first_commit": "2025-12-23T12:00:00Z",
+   "last_commit": "2026-04-02T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2025-12-23T12:00:00Z",
+    "2025-12-28T12:00:00Z",
+    "2026-01-01T12:00:00Z",
+    "2026-01-06T12:00:00Z",
+    "2026-01-10T12:00:00Z",
+    "2026-01-15T12:00:00Z",
+    "2026-01-19T12:00:00Z",
+    "2026-01-24T12:00:00Z",
+    "2026-01-28T12:00:00Z",
+    "2026-02-02T12:00:00Z",
+    "2026-02-06T12:00:00Z",
+    "2026-02-11T12:00:00Z",
+    "2026-02-16T12:00:00Z",
+    "2026-02-20T12:00:00Z",
+    "2026-02-25T12:00:00Z",
+    "2026-03-01T12:00:00Z",
+    "2026-03-06T12:00:00Z",
+    "2026-03-10T12:00:00Z",
+    "2026-03-15T12:00:00Z",
+    "2026-03-19T12:00:00Z",
+    "2026-03-24T12:00:00Z",
+    "2026-03-28T12:00:00Z",
+    "2026-04-02T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2025-12": 2,
+    "2026-01": 7,
+    "2026-02": 6,
+    "2026-03": 7,
+    "2026-04": 1
+   },
+   "longest_pause_days": 5,
+   "active_weeks": 15,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 17
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 6
+    }
+   ],
+   "files": 3,
+   "top_folders": [
+    "tool/",
+    "main.py",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "py",
+     "count": 2
+    },
+    {
+     "extension": "md",
+     "count": 1
+    }
+   ],
+   "readme": "# beta-tool\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-beta-tool",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "buried-idea",
+   "description": null,
+   "language": "JavaScript",
+   "created_at": "2026-05-06T12:00:00Z",
+   "last_push": "2026-05-12T12:00:00Z",
+   "archived": false,
+   "homepage": "https://idea.example.com",
+   "topics": [
+    "graveyard-experiment",
+    "graveyard-buried"
+   ],
+   "default_branch": "main",
+   "commits": 4,
+   "first_commit": "2026-05-06T12:00:00Z",
+   "last_commit": "2026-05-12T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2026-05-06T12:00:00Z",
+    "2026-05-08T12:00:00Z",
+    "2026-05-10T12:00:00Z",
+    "2026-05-12T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2026-05": 4
+   },
+   "longest_pause_days": 2,
+   "active_weeks": 2,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 3
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 1
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# buried-idea\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-buried-idea",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "delta-bot",
+   "description": null,
+   "language": "Go",
+   "created_at": "2025-03-28T12:00:00Z",
+   "last_push": "2025-04-27T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [],
+   "default_branch": "main",
+   "commits": 9,
+   "first_commit": "2025-03-28T12:00:00Z",
+   "last_commit": "2025-04-27T12:00:00Z",
+   "last_words": "wip",
+   "commit_dates": [
+    "2025-03-28T12:00:00Z",
+    "2025-04-01T12:00:00Z",
+    "2025-04-04T12:00:00Z",
+    "2025-04-08T12:00:00Z",
+    "2025-04-12T12:00:00Z",
+    "2025-04-16T12:00:00Z",
+    "2025-04-19T12:00:00Z",
+    "2025-04-23T12:00:00Z",
+    "2025-04-27T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2025-03": 1,
+    "2025-04": 8
+   },
+   "longest_pause_days": 4,
+   "active_weeks": 5,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 7
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 2
+    }
+   ],
+   "files": 3,
+   "top_folders": [
+    "go.mod",
+    "main.go",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "go",
+     "count": 1
+    },
+    {
+     "extension": "mod",
+     "count": 1
+    },
+    {
+     "extension": "md",
+     "count": 1
+    }
+   ],
+   "readme": "# delta-bot\n\nAn invented example repository.",
+   "recent_commits": [
+    "wip",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-delta-bot",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "epsilon-v1",
+   "description": null,
+   "language": "JavaScript",
+   "created_at": "2024-07-01T12:00:00Z",
+   "last_push": "2025-01-17T12:00:00Z",
+   "archived": true,
+   "homepage": null,
+   "topics": [
+    "graveyard-product",
+    "graveyard-successor-alpha-app"
+   ],
+   "default_branch": "main",
+   "commits": 55,
+   "first_commit": "2024-07-01T12:00:00Z",
+   "last_commit": "2025-01-17T12:00:00Z",
+   "last_words": "Moved to alpha-app",
+   "commit_dates": [
+    "2024-07-01T12:00:00Z",
+    "2024-07-05T12:00:00Z",
+    "2024-07-08T12:00:00Z",
+    "2024-07-12T12:00:00Z",
+    "2024-07-16T12:00:00Z",
+    "2024-07-20T12:00:00Z",
+    "2024-07-23T12:00:00Z",
+    "2024-07-27T12:00:00Z",
+    "2024-07-31T12:00:00Z",
+    "2024-08-03T12:00:00Z",
+    "2024-08-07T12:00:00Z",
+    "2024-08-11T12:00:00Z",
+    "2024-08-14T12:00:00Z",
+    "2024-08-18T12:00:00Z",
+    "2024-08-22T12:00:00Z",
+    "2024-08-26T12:00:00Z",
+    "2024-08-29T12:00:00Z",
+    "2024-09-02T12:00:00Z",
+    "2024-09-06T12:00:00Z",
+    "2024-09-09T12:00:00Z",
+    "2024-09-13T12:00:00Z",
+    "2024-09-17T12:00:00Z",
+    "2024-09-20T12:00:00Z",
+    "2024-09-24T12:00:00Z",
+    "2024-09-28T12:00:00Z",
+    "2024-10-02T12:00:00Z",
+    "2024-10-05T12:00:00Z",
+    "2024-10-09T12:00:00Z",
+    "2024-10-13T12:00:00Z",
+    "2024-10-16T12:00:00Z",
+    "2024-10-20T12:00:00Z",
+    "2024-10-24T12:00:00Z",
+    "2024-10-28T12:00:00Z",
+    "2024-10-31T12:00:00Z",
+    "2024-11-04T12:00:00Z",
+    "2024-11-08T12:00:00Z",
+    "2024-11-11T12:00:00Z",
+    "2024-11-15T12:00:00Z",
+    "2024-11-19T12:00:00Z",
+    "2024-11-22T12:00:00Z",
+    "2024-11-26T12:00:00Z",
+    "2024-11-30T12:00:00Z",
+    "2024-12-04T12:00:00Z",
+    "2024-12-07T12:00:00Z",
+    "2024-12-11T12:00:00Z",
+    "2024-12-15T12:00:00Z",
+    "2024-12-18T12:00:00Z",
+    "2024-12-22T12:00:00Z",
+    "2024-12-26T12:00:00Z",
+    "2024-12-29T12:00:00Z",
+    "2025-01-02T12:00:00Z",
+    "2025-01-06T12:00:00Z",
+    "2025-01-10T12:00:00Z",
+    "2025-01-13T12:00:00Z",
+    "2025-01-17T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2024-07": 9,
+    "2024-08": 8,
+    "2024-09": 8,
+    "2024-10": 9,
+    "2024-11": 8,
+    "2024-12": 8,
+    "2025-01": 5
+   },
+   "longest_pause_days": 4,
+   "active_weeks": 29,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 39
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 16
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# epsilon-v1\n\nAn invented example repository.",
+   "recent_commits": [
+    "Moved to alpha-app",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-epsilon-v1",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "gamma-api",
+   "description": "Internal API",
+   "language": "Go",
+   "created_at": "2026-03-03T12:00:00Z",
+   "last_push": "2026-04-12T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [
+    "graveyard-internal"
+   ],
+   "default_branch": "main",
+   "commits": 18,
+   "first_commit": "2026-03-03T12:00:00Z",
+   "last_commit": "2026-04-12T12:00:00Z",
+   "last_words": "Update README",
+   "commit_dates": [
+    "2026-03-03T12:00:00Z",
+    "2026-03-05T12:00:00Z",
+    "2026-03-08T12:00:00Z",
+    "2026-03-10T12:00:00Z",
+    "2026-03-12T12:00:00Z",
+    "2026-03-15T12:00:00Z",
+    "2026-03-17T12:00:00Z",
+    "2026-03-19T12:00:00Z",
+    "2026-03-22T12:00:00Z",
+    "2026-03-24T12:00:00Z",
+    "2026-03-27T12:00:00Z",
+    "2026-03-29T12:00:00Z",
+    "2026-03-31T12:00:00Z",
+    "2026-04-03T12:00:00Z",
+    "2026-04-05T12:00:00Z",
+    "2026-04-07T12:00:00Z",
+    "2026-04-10T12:00:00Z",
+    "2026-04-12T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2026-03": 13,
+    "2026-04": 5
+   },
+   "longest_pause_days": 3,
+   "active_weeks": 6,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 13
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 5
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# gamma-api\n\nAn invented example repository.",
+   "recent_commits": [
+    "Update README",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-gamma-api",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "omega-lab",
+   "description": null,
+   "language": "JavaScript",
+   "created_at": "2025-10-04T12:00:00Z",
+   "last_push": "2026-05-29T12:00:00Z",
+   "archived": false,
+   "homepage": null,
+   "topics": [
+    "graveyard-experiment"
+   ],
+   "default_branch": "main",
+   "commits": 20,
+   "first_commit": "2025-10-04T12:00:00Z",
+   "last_commit": "2026-05-29T12:00:00Z",
+   "last_words": "Back from the dead",
+   "commit_dates": [
+    "2025-10-04T12:00:00Z",
+    "2025-10-07T12:00:00Z",
+    "2025-10-10T12:00:00Z",
+    "2025-10-13T12:00:00Z",
+    "2025-10-16T12:00:00Z",
+    "2025-10-19T12:00:00Z",
+    "2025-10-22T12:00:00Z",
+    "2025-10-26T12:00:00Z",
+    "2025-10-29T12:00:00Z",
+    "2025-11-01T12:00:00Z",
+    "2025-11-04T12:00:00Z",
+    "2025-11-07T12:00:00Z",
+    "2025-11-10T12:00:00Z",
+    "2025-11-13T12:00:00Z",
+    "2026-05-09T12:00:00Z",
+    "2026-05-13T12:00:00Z",
+    "2026-05-17T12:00:00Z",
+    "2026-05-21T12:00:00Z",
+    "2026-05-25T12:00:00Z",
+    "2026-05-29T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2025-10": 9,
+    "2025-11": 5,
+    "2026-05": 6
+   },
+   "longest_pause_days": 177,
+   "active_weeks": 11,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 14
+    },
+    {
+     "login": "rroe",
+     "name": "Richard Roe",
+     "commits": 6
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# omega-lab\n\nAn invented example repository.",
+   "recent_commits": [
+    "Back from the dead",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-omega-lab",
+   "raw_version": 1,
+   "author_groups": []
+  },
+  {
+   "name": "zeta-archive",
+   "description": null,
+   "language": "JavaScript",
+   "created_at": "2024-06-30T12:00:00Z",
+   "last_push": "2024-07-01T12:00:00Z",
+   "archived": true,
+   "homepage": null,
+   "topics": [],
+   "default_branch": "main",
+   "commits": 2,
+   "first_commit": "2024-06-30T12:00:00Z",
+   "last_commit": "2024-07-01T12:00:00Z",
+   "last_words": "Initial commit",
+   "commit_dates": [
+    "2024-06-30T12:00:00Z",
+    "2024-07-01T12:00:00Z"
+   ],
+   "commits_per_month": {
+    "2024-06": 1,
+    "2024-07": 1
+   },
+   "longest_pause_days": 1,
+   "active_weeks": 2,
+   "authors": [
+    {
+     "login": "jdoe",
+     "name": "Jane Doe",
+     "commits": 2
+    }
+   ],
+   "files": 5,
+   "top_folders": [
+    "src/",
+    "test/",
+    "package.json",
+    "README.md"
+   ],
+   "extensions": [
+    {
+     "extension": "js",
+     "count": 3
+    },
+    {
+     "extension": "md",
+     "count": 1
+    },
+    {
+     "extension": "json",
+     "count": 1
+    }
+   ],
+   "readme": "# zeta-archive\n\nAn invented example repository.",
+   "recent_commits": [
+    "Initial commit",
+    "Fix tests",
+    "Initial commit"
+   ],
+   "source": "api",
+   "head_sha": "sha-zeta-archive",
+   "raw_version": 1,
+   "author_groups": []
+  }
+ ]
+}

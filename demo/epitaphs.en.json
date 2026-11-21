@@ -1,0 +1,483 @@
+{
+ "$comment": "Inscriptions of the demo village, key = repo name. inscription: 1 to 140 characters; cause: cause of death, at most 80 (ignored for living repos); mourner: who (Hollis, Marigold or Barnaby) and text (at most 100). No dashes or emojis. A repo without an entry gets a plain inscription from facts. Build with: node tools/demo-world.mjs",
+ "bellrope": {
+  "inscription": "Rang a bell on new mail for thirteen commits in spring 2025, then went quiet. Fixed its memory leak, which is more than most of us manage.",
+  "cause": "Memory leak in the worker, then no commits after May 2025",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Properly buried, which I rarely get to say. Shortcuts and pagination were each committed twice."
+  }
+ },
+ "brambleboard": {
+  "inscription": "The board grew like a hedge until nobody trimmed it. 41 days without a push; at 49 it joins the graveyard.",
+  "cause": "Commits thinned to one a month, then a 120 day pause and a late flurry",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Six commits in September, then the window went dark. Otis and Juno kept it lit most of a year."
+  }
+ },
+ "candle-timer": {
+  "inscription": "Here rests candle-timer, a Pomodoro timer begun in August 2024. It received two commits in one active week and was then left alone.",
+  "cause": "Work stopped after two commits in a single week; no later activity recorded",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Two commits, both named Initial commit. Little work, but it was dug properly and has stayed dug."
+  }
+ },
+ "crow-cache": {
+  "inscription": "64 commits and counting. The chimney is smoking, so someone is home.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Went quiet for 160 days, then came back with 8 commits in October. Stubborn little house."
+  }
+ },
+ "design-tokens": {
+  "inscription": "66 days without a push. 37 commits from one author, and a README still promising colour for every app. Still breathing.",
+  "cause": "Single maintainer; last commits were small fixes and a retry, then silence",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Last light out was 26 August. Longest dark before this was 18 days. I have been counting."
+  }
+ },
+ "dotfiles": {
+  "inscription": "Two hands kept these shell settings going through 43 commits. The silence has now matched its longest pause on record.",
+  "cause": "Two hands tinkering in turn, and nobody left to decide when it counts as done",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its last light went out on 9 September, and it has been the longest dark I have walked past."
+  }
+ },
+ "fernhollow-orders": {
+  "inscription": "Morning bake pre-orders, kept by Wren and Pim over 76 commits and 23 active weeks. The 4 am print still runs.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Twelve days since the last push, and its longest pause was nine. Still a healthy house, I'd say."
+  }
+ },
+ "fernhollow-shop": {
+  "inscription": "Bread, pastries and 142 commits. Three hands built this shop for Fernhollow, and it still keeps its doors open.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Otis, Pim and Juno watered this house through 31 active weeks. Nine quiet days at most."
+  }
+ },
+ "fernhollow-website": {
+  "inscription": "Built for Fernhollow Bakery over 39 commits and 10 active weeks. It ended with a handover guide and stands as delivered.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Last light out on 15 December. Quiet since, though it burned steadily for ten weeks."
+  }
+ },
+ "ferrywell": {
+  "inscription": "Still sending, one chunk at a time, over the hotel wifi. Wren and Otis keep the chimney smoking.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Wren and Otis tend it well. The resume fix has taken root, and I've not seen a wilt since."
+  }
+ },
+ "ferrywell-gui": {
+  "inscription": "Two keepers, 118 commits, and no pause longer than nine days. Smoke still rises from the chimney.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Five days since the last push, and the longest dry spell was nine. Thriving, if you ask me."
+  }
+ },
+ "ferrywell-landing": {
+  "inscription": "Twenty-three commits over sixteen active weeks, and a pricing table to show for it. Quiet for eleven days, but the chimney still smokes.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Six commits in October. Eleven quiet days is nothing, though it once sat dry for 26 days."
+  }
+ },
+ "ferrywell-legacy": {
+  "inscription": "The first ferrywell, written in Python over 58 commits by Wren. Its work lives on in ferrywell, and this crypt is kept for it.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out 700 days ago. Wren made 50 of its 58 commits, and the lane was quieter after."
+  }
+ },
+ "fog-machine": {
+  "inscription": "Twelve commits in four active weeks, the last pushed in January. It worked on the author's machine, which is where it stayed.",
+  "cause": "Experiment dropped in January after four active weeks, with no successor named.",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Dug this one in a hurry, I'd say. Nine commits in December, then \"try again\" and a long quiet."
+  }
+ },
+ "gloam": {
+  "inscription": "Three hands and 312 commits later, the page still dims as the evening goes on. Someone keeps the lamp lit.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "The worker's memory leak is fixed, so the house sleeps through the night now."
+  }
+ },
+ "gloam-api": {
+  "inscription": "Sync and accounts for gloam. 188 commits so far, and the chimney is still smoking, so someone is still up with it.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Fixed that flaky test twice. Returning 429 over 503 was the right call. Watch the wip commits."
+  }
+ },
+ "gloam-docs": {
+  "inscription": "Help centre and API docs for gloam, kept by two hands over 64 commits. The lamp is low, but the smoke still rises.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Juno waters most of this bed, 49 of 64 commits. It went dry for 18 days once, then came back up."
+  }
+ },
+ "gloam-landing": {
+  "inscription": "Forty-six commits, two keepers, and the chimney still smokes. The porch light stays on for visitors.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "A 39 day dry spell once, but it came back green. Someone fixed the crash on empty input twice."
+  }
+ },
+ "gloam-v1": {
+  "inscription": "First version of gloam, kept by Wren and Juno across 74 commits. The lamp now burns in gloam, its successor.",
+  "cause": "",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Not dug in a hurry. Its last commit pointed the README at gloam, the proper way to leave."
+  }
+ },
+ "gravel-sh": {
+  "inscription": "Buried by hand, though it never really died. Fifteen commits, one of them 'try again', and no push in 130 days.",
+  "cause": "Momentum ran out in June, mid-refactor by the look of 'wip' and 'try again'.",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Dug this one in a hurry. Fifteen commits, and one of them still says try again."
+  }
+ },
+ "hearthbook": {
+  "inscription": "Recipes for families who share one kitchen. Three cooks, 156 commits, and the chimney is still smoking.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Three gardeners in this bed, Otis the busiest. Watered three days back, still standing tall."
+  }
+ },
+ "hearthbook-ios": {
+  "inscription": "92 commits from two pairs of hands, and the chimney still smokes. The screen stays awake while the pot is on.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Thirty active weeks of watering. Otis and Juno take turns. Even the wip commits got a drink."
+  }
+ },
+ "hearthbook-landing": {
+  "inscription": "Juno keeps the hearthbook landing page warm across 31 commits, through one 34 day lull, with smoke still rising from the chimney.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Juno waters it in bursts. Seven commits in August, then a long dry spell. Still green, though."
+  }
+ },
+ "hearthbook-proto": {
+  "inscription": "Ancestor of hearthbook. Its clickable prototype took 22 commits to build, and the work lives on there.",
+  "cause": "Superseded by hearthbook after the Kotlin rewrite.",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out on purpose, after one last build ahead of the Kotlin rewrite. I still checked."
+  }
+ },
+ "hollow-icons": {
+  "inscription": "Here rest the outlines of an icon set: 27 commits between March and July 2025, and a README that never grew past one line.",
+  "cause": "Went quiet after July 2025; the README never got past one line.",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out in July 2025. I still notice the gap in the lane at night."
+  }
+ },
+ "infra": {
+  "inscription": "Servers, DNS and databases kept as code by one keeper. 204 commits in, and the chimney is still smoking.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Wren raised the database disk to 40 GB. The bed is well fed, and it has not been dry for long."
+  }
+ },
+ "inkpot-cli": {
+  "inscription": "Nineteen commits, one keeper, and a chimney that still smokes. The lamp has been low for eight days.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Ten commits in October and the runtime pinned twice so it stays put. Standing up straight."
+  }
+ },
+ "kettle-classic": {
+  "inscription": "The Rails years of the shopping list, 61 commits strong. Its work lives on in kettle-sync, its successor.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Last light out in April 2025, after the gems were frozen. The lamp burns on in kettle-sync."
+  }
+ },
+ "kettle-sync": {
+  "inscription": "Keeps shared shopping lists in step. Quiet for 48 days, but the light is still on for whoever comes back.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "48 days without a push, yet the site still answers. Wren and Bex left good soil here."
+  }
+ },
+ "lamplighter": {
+  "inscription": "Smoke still rises from the chimney. Seventy-three commits, two keepers, and a sync queue that no longer races.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Seventeen dry days once. Wren and Otis watered it back, and it has stayed green since."
+  }
+ },
+ "lanternfish": {
+  "inscription": "The light is still on. 97 commits by Otis and Juno, and the sky is still being watched.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Passed the house again last night. Light still on. 64 days quiet, and I still look up."
+  }
+ },
+ "lanternfish-landing": {
+  "inscription": "The light is still on. Eighteen commits over eleven active weeks, one author, and the site still answers.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "The site still answers and the light is on. Nothing is wilting, only resting. I'll keep watering."
+  }
+ },
+ "magpie-scraper": {
+  "inscription": "Collects shiny links. 38 commits over 23 active weeks, and the smoke is still rising from the chimney.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Nineteen quiet days once, and it still came back up. Runtime pinned, so it sleeps well."
+  }
+ },
+ "midnight-chess": {
+  "inscription": "Here lies a chess engine that only played after dark. Thirty-four commits over eleven active weeks, and it resigned politely.",
+  "cause": "Ran out of evenings. Last words: a polite resignation and small fixes.",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Dug this one in a hurry. Thirty-four commits, and the recent ones say 'more wip'."
+  }
+ },
+ "moorwatch": {
+  "inscription": "Here rests moorwatch, who warned hikers about the weather across 96 commits. Pricing remained a TODO.",
+  "cause": "Stalled after a TODO about API pricing; nobody pushed again",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Ended on a TODO about pricing, right after removing dead code. I dug this one in a hurry."
+  }
+ },
+ "moorwatch-landing": {
+  "inscription": "Fourteen commits over seven active weeks, all by Juno. The README runs to one sentence and says what it is.",
+  "cause": "Commits thinned every month, then the pushes stopped in March.",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "The last light on this lane went out on 15 March. Fourteen commits, then a long dark."
+  }
+ },
+ "moss-render": {
+  "inscription": "77 commits, 72 of them from Wren, and the shadow pass was left half finished. The chart is not encouraging.",
+  "cause": "Shadow pass stopped halfway; no pushes in 74 days",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Lit on and off from January to August. The last light went out halfway through the shadow pass."
+  }
+ },
+ "night-shift": {
+  "inscription": "Twenty-one commits over six active weeks, and the chimney still smokes. Sleeping, not gone.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Two wip commits, a flaky test fixed twice, a race fixed in the queue. The lamp still burns."
+  }
+ },
+ "nightjar-wiki": {
+  "inscription": "The old team wiki. Its final commit made it read only, and nobody came back to it.",
+  "cause": "Last commit made it read only; no one pushed again after May 2024.",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Last light went out in May 2024. Read only mode was its final commit, and I saw nothing after."
+  }
+ },
+ "owl-pager": {
+  "inscription": "Three commits in one active week, a one-line README, and then the night stayed quiet. Rest well.",
+  "cause": "Three days of experiments, then no return. The README never grew past one line.",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out on the 26th of September. I noticed from the lane. I always notice."
+  }
+ },
+ "puddle-db": {
+  "inscription": "Here lies a key value store that called itself very shallow in its README, and meant it. Nine commits, one author, March 2025.",
+  "cause": "Abandoned in March 2025 after four active weeks, with no finish line",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Light went out in March 2025. Nine commits, then dark. I still glance at that window on my rounds."
+  }
+ },
+ "quillmere-edi": {
+  "inscription": "Built for Quillmere Freight: 57 commits across 18 active weeks. Delivered, and kept standing as a monument.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out in September, and it has been dark since. Still, it was kept in good order."
+  }
+ },
+ "quillmere-portal": {
+  "inscription": "Built for Quillmere Freight by three hands over 203 commits. Final release 1.8.0 shipped, and it has stood since.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its lamp went out after the final release, 1.8.0. Never once sat idle longer than eight days."
+  }
+ },
+ "quillmere-tracking": {
+  "inscription": "118 commits of pallet tracking and one sync race fixed. The bays are still being counted.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Forty weeks of watering, and one dry spell of 130 days. It came back green, which is all I ask."
+  }
+ },
+ "rune-parser": {
+  "inscription": "Here lies the lexer, rewritten in parts, after 180 commits of honest effort. Rest well.",
+  "cause": "Lexer rewrite, part 4, never reached its end",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Dug this one myself. The lexer was half torn out, and no one came back to finish it."
+  }
+ },
+ "saltgrove-app": {
+  "inscription": "Where frames are tried on through the camera. Built by Otis and Juno over 64 commits for Saltgrove Opticians.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Otis and Juno kept this one watered well. Twenty quiet days is a dry spell, not yet a wilt."
+  }
+ },
+ "saltgrove-booking": {
+  "inscription": "Built for Saltgrove Opticians: 88 commits over 30 active weeks, and never a pause longer than 10 days.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Two hands kept this one lit, Otis and Pim Larkspur. The light went out in March and I noticed."
+  }
+ },
+ "shipwright": {
+  "inscription": "Helpers for releasing and rolling back, tended by Wren and Otis across sixty-seven commits. The chimney is smoking.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Pagination was fixed twice and rollbacks now retry the health check first. Someone is minding it."
+  }
+ },
+ "sparrow-chat": {
+  "inscription": "Group chat for small teams. Three authors, 210 commits and 69 active weeks, and the README never needed more than one line.",
+  "cause": "Public server shut down; commit pace thinned out through late 2024",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Commits dwindled from 19 in August 2024 to 4 in December. Then the public server went dark."
+  }
+ },
+ "status-page": {
+  "inscription": "Still lit. Otis left 29 commits here, and the page still answers when you knock on it.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "95 days since the last push, and the light in that window is still on. I notice when they go out."
+  }
+ },
+ "sundial-api": {
+  "inscription": "Quiet for 58 days, with 32 left before the grave. Its last commit moved the time zone data into a gem.",
+  "cause": "Its core data moved into a gem, leaving the service little to do",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its last light went out 3 September. Two commits that month, then the lane stayed dark."
+  }
+ },
+ "tallowmoor-handbook": {
+  "inscription": "How we work, written down so nobody has to ask twice. Three hands have kept the lamp lit.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Juno did most of the watering. 42 days went dry once, and I still think about it."
+  }
+ },
+ "tallowmoor-website": {
+  "inscription": "Our own house, raised by Juno and Otis over 54 commits. The chimney still smokes and the lamp is still on.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Most months it gets a few commits. It went 29 days dry once and still came back up nicely."
+  }
+ },
+ "teacup-orm": {
+  "inscription": "Forty-one commits and twenty-two active weeks, and the kettle is still on. Keep an eye on the worker's memory.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "The worker's memory leak was fixed twice, so I keep an eye on that root. Otis still waters it."
+  }
+ },
+ "thimble-vm": {
+  "inscription": "Here lies the smallest virtual machine we could think of. Four commits in one week; the opcode table stayed half done.",
+  "cause": "Abandoned mid-build after one week; the opcode table was never finished.",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Dug this one in a hurry. Four commits, one week, and the opcode table still half finished."
+  }
+ },
+ "tindervale-members": {
+  "inscription": "Delivered to the Tindervale Rowing Club with 71 commits from two hands. The final push exported the list for the annual meeting.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its light went out in June 2025 after the export. Still standing, so I pass it every night."
+  }
+ },
+ "tindervale-regatta": {
+  "inscription": "Regatta results for Tindervale Rowing Club, built by Otis and Juno over twelve active weeks. Still rowing between heats.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "26 days since the last push, and still no wilting. Otis and Juno kept the beds tidy."
+  }
+ },
+ "tindervale-site": {
+  "inscription": "For Tindervale Rowing Club, built by Juno in six active weeks. Delivered, and standing as handed over.",
+  "cause": "",
+  "mourner": {
+   "who": "Barnaby",
+   "text": "Its last light went out in June. Between commits it never sat dark longer than three days."
+  }
+ },
+ "wickstat": {
+  "inscription": "A light is still on in this house. Fifty-two commits, a worker's memory leak patched twice, and the site still answers.",
+  "cause": "",
+  "mourner": {
+   "who": "Marigold",
+   "text": "Wren watered this one all winter. Quiet 38 days, but the site still answers. Not wilting yet."
+  }
+ },
+ "willow-ml": {
+  "inscription": "Forty-six commits over thirteen weeks spent guessing when the willow lets go. Buried by hand, though the willow kept its leaves.",
+  "cause": "Experiment set aside after its October push; no client, no successor",
+  "mourner": {
+   "who": "Hollis",
+   "text": "Seventeen commits in September, then three in October. I dug this one by hand, and quickly."
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+  "meta": { "htmlLang": "en", "numberLocale": "en-US" },
+  "defaultTitle": "Graveyard of Repos",
+  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "date": { "unknown": "unknown", "short": "{y}-{m}-{d}", "long": "{month} {d}, {y}" },
+  "ago": { "today": "today", "yesterday": "yesterday", "days": "{n} days ago", "months": "{n} months ago", "oneYear": "a year ago", "years": "{n} years ago" },
+  "places": { "village": "Village", "clients": "Client quarter", "hospice": "Hospice", "graveyard": "Graveyard", "chapel": "Chapel", "pond": "Pond", "square": "Village square" },
+  "states": {
+    "alive": { "title": "Alive", "sentence": "Last push {ago}." },
+    "sleeping": { "title": "Asleep", "sentence": "Live, but quiet for {days} days." },
+    "client_active": { "title": "In progress for a client", "sentence": "Last push {ago}." },
+    "delivered": { "title": "Delivered", "sentence": "Done and at rest for {days} days." },
+    "hospice": { "title": "In the hospice", "sentence": { "one": "{n} day left before it counts as dead.", "other": "{n} days left before it counts as dead." } },
+    "dead": { "title": "Deceased", "sentence": "No sign of life for {days} days." },
+    "buried": { "title": "Buried", "sentence": "Archived and properly laid to rest." },
+    "ancestor": { "title": "Ancestor", "sentence": "Lives on in {successor}." }
+  },
+  "legend": {
+    "alive": "Alive", "sleeping": "Asleep", "client_active": "With clients", "delivered": "Delivered",
+    "hospice": "Hospice", "dead": "Deceased", "ancestor": "Ancestors", "zombie": "Zombies",
+    "title": "Tap to filter the dots on the map", "back": "Back to the village"
+  },
+  "zones": {
+    "graveyard": { "standing": "You are standing in the", "entering": "You enter the", "sentence": "{dead} days or more without a push. Rest in peace." },
+    "hospice": { "standing": "You are standing in the", "entering": "You enter the", "sentence": "Between {alive} and {dead} days without a push." },
+    "clients": { "standing": "You are standing in the", "entering": "You enter the", "sentence": "Built for others." },
+    "village": { "standing": "You are standing in the", "entering": "Back in the", "sentence": "Home to whatever is alive." }
+  },
+  "header": { "asOf": "{n} repos · as of {date}" },
+  "nav": { "map": "Map", "mapTitle": "Map (M)", "sound": "Sound on or off", "help": "Controls" },
+  "help": {
+    "kicker": "Controls",
+    "title": "How to get around",
+    "touch": [
+      ["Tap", "Walk there. On houses, graves and figures: take a look"],
+      ["Drag", "Turn the camera"],
+      ["Two fingers", "Closer or further away"],
+      ["Bottom", "Read what is in front of you and pay respect"],
+      ["Top", "Map of the whole village and sound"]
+    ],
+    "desktop": [
+      ["<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>", "Walk, faster with <kbd>Shift</kbd>"],
+      ["Click", "Walk there, on houses and graves: take a look"],
+      ["Drag", "Turn the camera, <kbd>Q</kbd> <kbd>E</kbd> works too"],
+      ["Mouse wheel", "Closer or further away"],
+      ["<kbd>Space</kbd>", "Read what is in front of you"],
+      ["<kbd>F</kbd>", "Pay respect"],
+      ["<kbd>M</kbd>", "Map of the whole village"]
+    ],
+    "signOut": "Sign out",
+    "switchFigure": "Switch figure",
+    "ok": "Got it"
+  },
+  "choice": { "kicker": "Welcome to the village", "title": "Who are you?", "note": "You can switch figures later in the help." },
+  "hint": {
+    "zombie": "Look at zombie {name}", "talk": "Talk to {name}",
+    "grave": "Read the grave of {name}", "mausoleum": "Look at the mausoleum of {name}", "house": "Look at {name}",
+    "bed": "Read the chart of {name}", "vault": "Look at the ancestors of {name}", "monument": "Read the monument to {name}",
+    "clientSign": "Projects for {name}", "chapel": "Enter the chapel", "hospice": "Hospice",
+    "space": "Space", "respect": "Pay respect"
+  },
+  "mourner": "Mourner",
+  "online": "online",
+  "guest": "Guest",
+  "visiting": "Visiting",
+  "ancestorsOf": "Ancestors of {name}",
+  "commitsN": "{n} commits",
+  "tip": {
+    "zombie": "Zombie",
+    "zombieSentence": "Was dead for {days} days once and got up again on {date}.",
+    "you": "That is you", "online": "Online now", "with": "With {name}.",
+    "vaultKicker": "Village · Ancestral vault",
+    "vaultSentence": { "one": "{n} predecessor lives on here.", "other": "{n} predecessors live on here." },
+    "projects": { "one": "{n} project", "other": "{n} projects" },
+    "hospiceSentence": "Repos with {alive} to {dead} days without a push.",
+    "chapelSentence": "All the dead are remembered here."
+  },
+  "detail": {
+    "close": "Close",
+    "about": "{name} on {repo}",
+    "mournerSentence": "Walks through the village at night and has something to say about {n} repos.",
+    "player": "Out and about with a lantern.",
+    "online": "Also walking through the village right now.",
+    "clientText": "What was built for this client.",
+    "hospiceText": "Repos without a push for more than {alive} days rest here. After {dead} days they count as dead. Visitors are welcome.",
+    "zombieKicker": "Zombie · risen on {date}",
+    "hereLies": "Here lies",
+    "open": "Open {url}",
+    "lastWords": "Last words",
+    "sameGrave": "In the same grave",
+    "belongs": "Belongs to it",
+    "backToList": "Back to the overview",
+    "vaultText": "What lies here is not dead. It lives on in {name}."
+  },
+  "facts": {
+    "commits": "Commits", "files": "Files", "language": "Language", "lastPush": "Last push", "client": "Client",
+    "livesOnIn": "Lives on in", "diagnosis": "Diagnosis", "causeOfDeath": "Cause of death",
+    "authors": { "one": "Author", "other": "Authors" }
+  },
+  "lifeDates": { "span": "{from} to {to}", "since": "Since {from}" },
+  "history": { "title": "Commits per month", "bar": "{month}: {n} commits" },
+  "tribute": {
+    "respect": "Respect", "flower": "Flower", "candle": "Candle",
+    "flowerLaid": "Flower laid down.", "candleLit": "Candle lit.",
+    "respectPaid": { "one": "Respect paid.", "other": "Respect paid. {n} times by you." }
+  },
+  "chapel": {
+    "kicker": "Graveyard · Chapel",
+    "text": "{n} repos rest here. Together {commits} commits that nobody reads anymore.",
+    "longestDead": "Dead the longest", "since": "{name}, since {date}",
+    "lastDied": "Died most recently",
+    "respect": "Respect paid", "respectCount": "{n} times, by everyone together"
+  },
+  "signs": {
+    "rip": "REST IN PEACE", "delivered": "delivered {year}", "chart": "Patient chart", "left": "left",
+    "days": { "one": "day", "other": "days" }, "asOf": "As of {date}  ·  Scale 1:87"
+  },
+  "loading": {
+    "surveying": "Surveying the village", "count": "{i} of {n}",
+    "epitaphs": "Carving new inscriptions", "live": "Checking the windows for light",
+    "world": "Setting up the village", "building": "Building the village",
+    "offline": "No connection. You are looking at the last state.",
+    "refreshFailed": "The refresh did not work. You are looking at the last state.",
+    "failed": "The world could not be loaded: {message}"
+  },
+  "login": {
+    "access": "Family and friends only.",
+    "button": "Sign in with {provider}",
+    "domains": "Family is anyone with an address at {domains}.",
+    "or": " or ",
+    "denied": "This address does not get you in.",
+    "failed": "Signing in did not work. Please try again.",
+    "signedOut": "You are signed out. The dead will not run away.",
+    "wait": "One moment"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+# raw data and live check of a pipeline run: may contain commit messages and READMEs of private
+# repos, so they stay out of the repository (the workflow keeps raw.json in the Actions cache)
+data/raw.json
+data/live.json

@@ -1,0 +1,66 @@
+{
+  "$schema": "./config.schema.json",
+  "owner": "tallowmoor",
+  "language": "en",
+  "branding": { "mark": "Tallowmoor" },
+  "team": {
+    "wren": {
+      "name": "Wren",
+      "role": "Backend",
+      "look": { "skin": "#e8bf9f", "hair": "#2b1d16", "hairstyle": "bun", "glasses": true, "top": "sweater", "color": "#4a6b5d", "trousers": "#2a2f3a", "shoes": "#d9d3c7", "extra": "laptop" }
+    },
+    "otis": {
+      "name": "Otis",
+      "role": "Frontend",
+      "look": { "skin": "#8d5a3b", "hair": "#141012", "hairstyle": "short", "beard": "full", "top": "hoodie", "color": "#c46a3a", "trousers": "#30323c", "shoes": "#efeae0", "extra": "headset" }
+    },
+    "juno": {
+      "name": "Juno",
+      "role": "Design",
+      "look": { "skin": "#f1d4bd", "hair": "#c9874f", "hairstyle": "longbob", "top": "jacket", "color": "#2f4a7a", "shirt": "#f3efe6", "trousers": "#3b3a44", "shoes": "#5a3a2a", "extra": "tablet" }
+    }
+  },
+  "mourners": {
+    "label": "Village",
+    "promptGroup": "from the village",
+    "members": {
+      "hollis": {
+        "name": "Hollis",
+        "role": "Gravedigger",
+        "prompt": "gravedigger, digs every grave and remembers which ones were dug in a hurry",
+        "accent": "#ffb35c",
+        "look": { "skin": "#d8a88a", "hair": "#8a8580", "hairstyle": "shaggy", "beard": "full", "top": "coat", "color": "#3b3328", "trousers": "#2b2620", "shoes": "#1f1a16", "extra": "umbrella" }
+      },
+      "marigold": {
+        "name": "Marigold",
+        "role": "Gardener",
+        "prompt": "gardener, waters the living houses and knows which ones are wilting",
+        "accent": "#9fd6a0",
+        "look": { "skin": "#c98e6a", "hair": "#5b2e1c", "hairstyle": "braid", "top": "vest", "color": "#5f7a3c", "shirt": "#e9e2cf", "trousers": "#4a3b2a", "shoes": "#3a2a1e", "extra": "letter" }
+      },
+      "barnaby": {
+        "name": "Barnaby",
+        "role": "Night watchman",
+        "prompt": "night watchman, walks the lanes at night and notices every light that went out",
+        "accent": "#8fb8ff",
+        "look": { "skin": "#f0cdb3", "hair": "#d9d6d0", "hairstyle": "slicked", "beard": "stubble", "glasses": true, "top": "blazer", "color": "#1d2738", "shirt": "#e8e4dc", "tie": "#7a2e2e", "trousers": "#1d2738", "shoes": "#151515", "extra": "phone" }
+      }
+    }
+  },
+  "clients": {
+    "fernhollow": "Fernhollow Bakery",
+    "quillmere": "Quillmere Freight",
+    "saltgrove": "Saltgrove Opticians",
+    "tindervale": "Tindervale Rowing Club"
+  },
+  "familyColors": {
+    "gloam": "#ff9a4d",
+    "ferrywell": "#6cc0ff",
+    "hearthbook": "#f5c26b",
+    "lanternfish": "#a6a9ff",
+    "kettle": "#ffb3a1"
+  },
+  "authors": {
+    "aliases": { "wren hallowell": "Wren", "otis brackwater": "Otis", "juno tamsin": "Juno" }
+  }
+}
